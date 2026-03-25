@@ -1,83 +1,3588 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RS CAFE</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Font Awesome CDN for social icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-p0vM74q6Wf+4Fv7O+bx2cOMuU1cBfZfR4+MnI6Pxl+/k4H+P6tY3yS7k0K2H9C6qvS+zT6V1zwU5KKc5U9s2vg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="rs-hero">
-      <div class="rs-box">
-        <!-- Logo -->
-        <img src="images/logo.jpeg" alt="RS CAFE Logo" class="rs-logo" />
-        <h6
-          style="
-            color: #ffffff;
-            font-family: &quot;Poppins&quot;, sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-          "
-        >
-          RS Cafe is located at HB/16, City Centre, Sector 4, Opposite Mithela
-          Academy, Bokaro Locality, Bokaro. Contact us at +91 9708037956.
-        </h6>
-
-        <!-- Title -->
-        <h1 class="rs-title">CAFE'S MENU</h1>
-
-        <!-- Slogan -->
-        <p class="rs-slogan">“Eat Delight in Every Bite!” ☕🍔</p>
-
-        <!-- Social Icons -->
-        <div class="rs-social">
-          <a href="https://wa.me/1234567890" target="_blank"
-            ><i class="fab fa-whatsapp"></i
-          ></a>
-          <a href="https://www.facebook.com/YourPage" target="_blank"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a href="https://www.instagram.com/YourProfile" target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-
 <div id="OneFoodMenu"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/1food-menu@0.6.10/dist/style.css"/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/1food-menu@0.6.10/dist/style.css"
+/>
 <script type="module" defer>
-    import { createMenu } from "https://cdn.jsdelivr.net/npm/1food-menu@0.6.10/dist/1food-menu.mjs"
-    
-    try {
-        const menuData = {"categories":[{"uid":"cat_mkspemnziilnifc01e","name":"BURGERS","description":"VEG, PANEER, NON-VEG","isArchived":false},{"uid":"cat_mkspf7xh9wkbjl4s03w","name":"PASTA ","description":"VEG,PANEER,NON-VEG","isArchived":false},{"uid":"cat_mkspg856mmw8rvgrohr","name":"MAGGIE ","description":"VEG, PANEER, NON-VEG","isArchived":false},{"uid":"cat_mkspgms090ye98yrqbq","name":"MOMOS","description":"VEG, PANEER, NON-VEG","isArchived":false},{"uid":"cat_mksph6in0ee3k7v9fv7p","name":"GARLIC BREAD ","description":"VEG, PANEER, NON-VEG","isArchived":false},{"uid":"cat_mksphn24kun3yzf6f","name":"WRAPS","description":"VEG, PANEER, NON-VEG","isArchived":false},{"uid":"cat_mkspi3pjohhovu6lasq","name":"SANDWICH ","description":"VEG, NON-VEG, PANEER","isArchived":false},{"uid":"cat_mkspiyyxccws9fcispb","name":"PIZZA","description":"All kinds of 🍕 pizzas.","isArchived":false},{"uid":"cat_mkspli2kz3c3p6snkj","name":"MUNCHES VEG","description":"All kinds of fries , nuggets, roll , cutlets, tikki etc.","isArchived":false},{"uid":"cat_mkspmmfc83myrc27tn2","name":"MUNCHES NON-VEG","description":"Chicken Nuggets, fingers, fries, popcorn, strips, wings, roll etc.","isArchived":false},{"uid":"cat_mkspo1o7uu4qof3jaw","name":"CHINESE SPECIAL","description":"Chowmin, Rice, Chillis, Wings etc.","isArchived":false},{"uid":"cat_mkspp5l8gn8cbzbbukh","name":"BREADS","description":"Aloo, Methi, Gobi, Matar and Malabar Paratha.","isArchived":false},{"uid":"cat_mkspqhl9zpjk6xcxpts","name":"MOCKTAILS","description":"Mint Blast, Green Granny Mojito, Summer Delight and Blue Margarita.","isArchived":false},{"uid":"cat_mksps0kw7i0eloi7t6y","name":"SHAKES","description":"Strawberry, Mango, Butterscotch, Orange, Litchi, Blueberry, Blackcurrent, Kiwi, Oreo, Kitkat.","isArchived":false},{"uid":"cat_mksptcmkkbbp21s586","name":"SOYA CHAAP","description":"Afgani, Malai, Tandoori, Punjabi, Chatpata, Soya, Butter , Tawa and Masala Chaap.","isArchived":false},{"uid":"cat_mkspu3uwqovw516zgim","name":"TEA / COFFEE ","description":"Hot tea and Coffe","isArchived":false},{"uid":"cat_mkutqlqd1wdi3mlakwt","name":"BIRYANI","description":"Hyderabadi Chicken 🐔 Dum biryani ","isArchived":false},{"uid":"cat_mlkl1psnqs4mn9mqzxc","name":"SOYA CHILLI","description":"","isArchived":false},{"uid":"cat_mlkl1y8mhmr31fv9mtp","name":"CHICKEN SPECIAL","description":"","isArchived":false},{"uid":"cat_mlkl25mnazd9viymp7k","name":"MUTTON SPECIAL","description":"","isArchived":false},{"uid":"cat_mmrcw6s4sbz8ly8loi","name":"COLD COFFEE ","description":"A smooth, creamy blend of chilled coffee and milk, poured over ice 🧊 for that perfect refreshing kick 🌬️. Sweet, bold, and irresistibly cool 😎 ","isArchived":false}],"products":[{"uid":"pro_mkspusvf7h9z892udur","name":"Classic Burger ","options":[{"uid":"price_mkspusvsupn07fvzl5r","size":"VEG","price":99,"salePrice":null},{"uid":"price_mkspzxx9sboxug1bu7l","size":"PANEER","price":119,"salePrice":null},{"uid":"price_mksq0np8fo87wabw8ub","size":"CHICKEN","price":129,"salePrice":null}],"categoryId":"cat_mkspemnziilnifc01e","description":"","imageUrl":"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=500&q=80","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkspwnmu7ghuo4kw59p","name":"Crispy Burgers ","options":[{"uid":"price_mkspwnn0zj5u0tnt5uf","size":"VEG","price":119,"salePrice":null},{"uid":"price_mksq338cimqphw3pitq","size":"PANEER","price":139,"salePrice":null},{"uid":"price_mkur190cjs7osjhog","size":"CHICKEN","price":149,"salePrice":null}],"categoryId":"cat_mkspemnziilnifc01e","description":"","imageUrl":"https://media.timeout.com/images/103309515/image.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkspxo085o4a9knbwxx","name":"Peri Peri Burger","options":[{"uid":"price_mkspxo0cqdymjm3ggac","size":"VEG","price":109,"salePrice":null},{"uid":"price_mksq4a9tmls0icn8tb","size":"PANEER","price":129,"salePrice":null},{"uid":"price_mksq4nzvxiu5toz2a7b","size":"CHICKEN","price":139,"salePrice":null}],"categoryId":"cat_mkspemnziilnifc01e","description":"","imageUrl":"https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksq5ro63n5kevggbyp","name":"TANDOORI BURGER","options":[{"uid":"price_mksq5ro9wbtfjh8wpd","size":"VEG","price":109,"salePrice":109},{"uid":"price_mksq789so6ti5zustpo","size":"PANEER","price":129,"salePrice":129},{"uid":"price_mksq7sr6ateywkfmxo","size":"CHICKEN","price":139,"salePrice":139}],"categoryId":"cat_mkspemnziilnifc01e","description":"","imageUrl":"https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksq8x16wiywva0cex","name":"EXTRA CHEESY OVERLOADED ","options":[{"uid":"price_mksq8x19wcphc107gcm","size":"VEG","price":149,"salePrice":149},{"uid":"price_mksq9o7i0u92p0efopjj","size":"PANEER","price":169,"salePrice":169},{"uid":"price_mksqa14cpcew47v8kwh","size":"CHICKEN","price":189,"salePrice":189}],"categoryId":"cat_mkspemnziilnifc01e","description":"","imageUrl":"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqgpybl4g2xv304ji","name":"RED SAUCE ","options":[{"uid":"price_mksqgpyi75oquvidijh","size":"VEG","price":120,"salePrice":120},{"uid":"price_mksqifvv998d4m4edl4","size":"PANEER","price":140,"salePrice":140},{"uid":"price_mksqit1a8za6ddbooch","size":"CHICKEN","price":170,"salePrice":170}],"categoryId":"cat_mkspf7xh9wkbjl4s03w","description":"","imageUrl":"https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqjbnim8ddtmogfr","name":"WHITE SAUCE ","options":[{"uid":"price_mksqjbnl5t5i1tlo21t","size":"VEG","price":130,"salePrice":null},{"uid":"price_mksqk27anawsbb4yr7","size":"PANEER","price":150,"salePrice":null},{"uid":"price_mkur4j72kdytqumj4q","size":"CHICKEN","price":180,"salePrice":null}],"categoryId":"cat_mkspf7xh9wkbjl4s03w","description":"","imageUrl":"https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqkygyj8p3ilzgbh","name":"MIX SAUCE ","options":[{"uid":"price_mksqkyh1kbo5b2ny73d","size":"VEG","price":140,"salePrice":null},{"uid":"price_mkur52s8piv8i1yzih","size":"PANEER","price":170,"salePrice":null},{"uid":"price_mkur533rcwzk0a5x8ho","size":"CHICKEN","price":180,"salePrice":null}],"categoryId":"cat_mkspf7xh9wkbjl4s03w","description":"","imageUrl":"https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqlpjfbjxn2ugm0lk","name":"BAKED MAC & CHEESE PASTA","options":[{"uid":"price_mksqlpjjn0t8frcu2n8","size":"VEG","price":180,"salePrice":null},{"uid":"price_mkur5lkoxvncj9f3dm","size":"PANEER","price":200,"salePrice":null},{"uid":"price_mkur5lpzked7e11b0b","size":"CHICKEN","price":230,"salePrice":null}],"categoryId":"cat_mkspf7xh9wkbjl4s03w","description":"","imageUrl":"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqn2z0e6vg5p4q4b","name":"PLAIN MAGGIE","options":[{"uid":"price_mksqn2z6r45mtwj4om","size":"VEG","price":70,"salePrice":null},{"uid":"price_mkur6jnlbb89avv8rpu","size":"PANEER","price":90,"salePrice":null},{"uid":"price_mkur6rmtd73juivpp4j","size":"CHICKEN","price":110,"salePrice":null}],"categoryId":"cat_mkspg856mmw8rvgrohr","description":"","imageUrl":"https://i.ytimg.com/vi/meb9JbfNt98/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqrx0gfzmanysf9jo","name":"SCHEZWAN MAGGIE","options":[{"uid":"price_mksqrx0lh679h2k02s","size":"VEG","price":80,"salePrice":null},{"uid":"price_mkur7kbuk7ooo4jdle","size":"PANEER","price":100,"salePrice":null},{"uid":"price_mkur7ki2gf9pfdtzu3n","size":"CHICKEN","price":120,"salePrice":null}],"categoryId":"cat_mkspg856mmw8rvgrohr","description":"","imageUrl":"https://i.ytimg.com/vi/utd8csFxMlk/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqt079ehs0n98pxbt","name":"PERI PERI MAGGIE","options":[{"uid":"price_mksqt07fh15xr73pesm","size":"VEG","price":80,"salePrice":null},{"uid":"price_mkur88o29oeqy3ucu5w","size":"PANEER","price":100,"salePrice":null},{"uid":"price_mkur88uq72lbu3rynar","size":"CHICKEN","price":120,"salePrice":null}],"categoryId":"cat_mkspg856mmw8rvgrohr","description":"","imageUrl":"https://www.whiskaffair.com/wp-content/uploads/2021/05/Peri-Peri-Maggi-2-3-500x500.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqtns6ribl9swe6f8","name":"CHEESY MAGGIE","options":[{"uid":"price_mksqtns9zt3zo2o9kl","size":"VEG","price":100,"salePrice":null},{"uid":"price_mkur9n1fy9ifztszgm","size":"PANEER","price":120,"salePrice":null},{"uid":"price_mkur9n71j3dj2fytbbo","size":"CHICKEN","price":140,"salePrice":null}],"categoryId":"cat_mkspg856mmw8rvgrohr","description":"","imageUrl":"https://c.ndtvimg.com/2022-03/32nnv99g_maggi_625x300_11_March_22.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksquk5yff9sg1m5bg8","name":"STEAM ","options":[{"uid":"price_mksquk67jt9vy3xx7z","size":"VEG (4 pcs)","price":45,"salePrice":null},{"uid":"price_mkurg0jc3fukcvq7jcg","size":"VEG (8 pcs)","price":80,"salePrice":null},{"uid":"price_mkurgd8osn3knv93ptk","size":"PANEER (4 pcs)","price":65,"salePrice":null},{"uid":"price_mkurgdntiugnv3595eq","size":"PANEER (8 pcs)","price":115,"salePrice":null},{"uid":"price_mkurgfcpycownyh143","size":"CHICKEN (4 pcs)","price":65,"salePrice":null},{"uid":"price_mkurgfomwa8u0nkdd2l","size":"CHICKEN (8 pcs)","price":125,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://www.spicypunch.com/wp-content/uploads/2021/05/chicken-momos-recipe-1-768x512.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqyl9ao0a1qx356og","name":"PERI PERI ","options":[{"uid":"price_mksqyl9gp0aujku6ku","size":"VEG (HALF)","price":65,"salePrice":null},{"uid":"price_mkuri5dupocb4dq3pl","size":"VEG (FULL)","price":105,"salePrice":null},{"uid":"price_mkuri5sjmjv2ufcex8","size":"PANEER (HALF)","price":75,"salePrice":null},{"uid":"price_mkuri63mxad7vkn6mko","size":"PANEER (FULL)","price":135,"salePrice":null},{"uid":"price_mkuri6e2efk8dvxa6p","size":"CHICKEN (HALF)","price":75,"salePrice":null},{"uid":"price_mkurj08im0admpoxiki","size":"CHICKEN (FULL)","price":135,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://www.zippyfeed.com/wp-content/uploads/2023/01/Peri-Chicken-Fried-Momo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksqzbj7yagifddme0n","name":"CHILLI ","options":[{"uid":"price_mksqzbjcjjmmel47bf","size":"VEG (4 pcs)","price":65,"salePrice":null},{"uid":"price_mkurn0jhqlsg04dzxm","size":"VEG(8 pcs)","price":105,"salePrice":null},{"uid":"price_mkurn31q1x4ae5qaszs","size":"PANEER (4 pcs)","price":75,"salePrice":null},{"uid":"price_mkurn3dp6hs0jqe0rgq","size":"PANEER (8 pcs)","price":135,"salePrice":null},{"uid":"price_mkurn5itkiiil9af53","size":"CHICKEN (4 pcs)","price":75,"salePrice":null},{"uid":"price_mkurn5vimad4l4q93cc","size":"CHICKEN (8 pcs)","price":135,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://www.yumcurry.com/wp-content/uploads/2021/05/chilli-garlic-momos-feature-image.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr08193raw7hjmk7b","name":"AFGANI","options":[{"uid":"price_mksr081dpt577kspvp","size":"VEG (4 pcs)","price":65,"salePrice":null},{"uid":"price_mkurkr4biv1ke9muthj","size":"VEG (8 pcs)","price":105,"salePrice":null},{"uid":"price_mkurkrktmk37i1tn9p8","size":"PANEER (4 pcs)","price":75,"salePrice":null},{"uid":"price_mkurkryherey4gvbje4","size":"PANEER (8 pcs)","price":135,"salePrice":null},{"uid":"price_mkurktmdxfdemjhpvkd","size":"CHICKEN (4 pcs)","price":75,"salePrice":null},{"uid":"price_mkurktz8wgvugztvib","size":"CHICKEN (8 pcs))","price":135,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://khaopiyo.au/wp-content/uploads/2023/12/Afghani-Momos-New.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr0upasjk37ftknk","name":"KURKURE ","options":[{"uid":"price_mksr0upew7796abzy","size":"VEG (4 pcs)","price":65,"salePrice":null},{"uid":"price_mkurbts5xe6i9bmf8i","size":"VEG (8 pcs)","price":105,"salePrice":null},{"uid":"price_mkurbty572u3ibokw6m","size":"PANEER (4 pcs)","price":75,"salePrice":null},{"uid":"price_mkurda92yr2w83suwa","size":"PANEER (8 pcs)","price":135,"salePrice":null},{"uid":"price_mkureeo0fjngsktcv37","size":"CHICKEN (4 pcs)","price":85,"salePrice":null},{"uid":"price_mkuref6grygi4pvzs9","size":"CHICKEN (8 pcs)","price":145,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://i.ytimg.com/vi/BYe5YeWc_dk/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsahqwy3vfaha5t6g","name":"CHICKEN  CHEESE MOMOS","options":[{"uid":"price_mljsahr1ga1veseuz","size":"HALF( 4 pcs)","price":75,"salePrice":null},{"uid":"price_mljsb3op00e583c7kg49","size":"FULL(8 pcs)","price":135,"salePrice":null}],"categoryId":"cat_mkspgms090ye98yrqbq","description":"","imageUrl":"https://static.iwmbuzz.com/wp-content/uploads/2022/01/the-easiest-way-to-prepare-delicious-chicken-cheese-momo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr2oj6vwtgxi8jcfr","name":"CHEESY  ","options":[{"uid":"price_mksr2ojdmjlwgccp8x9","size":"VEG (4 pcs)","price":159,"salePrice":null},{"uid":"price_mkurp6aow4kzi2m2oms","size":"PANEER (4 pcs)","price":179,"salePrice":null},{"uid":"price_mkurp6gvsgxpdkztrok","size":"Chicken (4 pcs)","price":189,"salePrice":null}],"categoryId":"cat_mksph6in0ee3k7v9fv7p","description":"","imageUrl":"https://img.freepik.com/premium-photo/plate-with-delicious-homemade-garlic-bread-table-close-up_149301-4249.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr48m8b2r0f2srrm6","name":"EXTRA LOADED CHEESY (4 PIECES)","options":[{"uid":"price_mksr48mc4ks8z1ackjx","size":"VEG (4 pcs)","price":189,"salePrice":189},{"uid":"price_mkurq9c16m8j7atvqft","size":"PANEER (4 pcs)","price":209,"salePrice":null},{"uid":"price_mkurq9mwaz5p6gpd2j","size":"CHICKEN (4 PCS)","price":219,"salePrice":null}],"categoryId":"cat_mksph6in0ee3k7v9fv7p","description":"","imageUrl":"https://momycooks.com/wp-content/webp-express/webp-images/uploads/2025/03/Cheesy-Garlic-Bread-Recipe.png.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr5afhjr79v5v6puj","name":"TWISTER ","options":[{"uid":"price_mksr5afmzzle2x0i0gj","size":"VEG","price":129,"salePrice":null},{"uid":"price_mkurswuyoqt5au7z5bm","size":"PANEER","price":139,"salePrice":null},{"uid":"price_mkursx61i5zpum5d2nr","size":"CHICKEN","price":149,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://i.ytimg.com/vi/SyIJ4y8lgfo/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr5xg05umpjzghbyd","name":"SPICY","options":[{"uid":"price_mksr5xg4fst0oug67w7","size":"VEG","price":139,"salePrice":null},{"uid":"price_mkurubtf6tiq9emlk0p","size":"PANEER","price":149,"salePrice":null},{"uid":"price_mkuruc5hi6z20d4jqe","size":"CHICKEN","price":159,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://aflavorjournal.com/wp-content/uploads/2023/04/Spicy-Chicken-Wrap-Recipe-24-scaled.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr6tvjj47illtou5b","name":"BBQ","options":[{"uid":"price_mksr6tvobfa1uarqw","size":"VEG","price":139,"salePrice":null},{"uid":"price_mkurvmxfjfn14r7vv7p","size":"PANEER","price":149,"salePrice":null},{"uid":"price_mkurvn2hl9sbnt6qk1b","size":"CHICKEN","price":209,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://savorandspoon.com/wp-content/uploads/2025/02/BBQ-Chicken-Wraps-12-683x1024.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr7ewq4cniwgwngro","name":"PERI PERI","options":[{"uid":"price_mksr7ewugtyzys52ged","size":"VEG","price":139,"salePrice":139},{"uid":"price_mkurx5d9cq9lrxl19db","size":"PANEER","price":149,"salePrice":null},{"uid":"price_mkurx5ms5jo2x2sk09d","size":"CHICKEN","price":159,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://mns.sidechef.com/recipe/5f212bbf-0fb4-4c46-b44c-dac995cac466.jpg?d=1200x800","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkurye2zkyjqf9pql7c","name":"CHEESY ","options":[{"uid":"price_mkurye3468lo9hg4ny8","size":"VEG","price":149,"salePrice":null},{"uid":"price_mkurylxxf2uff97koww","size":"PANEER","price":159,"salePrice":null},{"uid":"price_mkurym3onuhc1r3mcbm","size":"CHICKEN","price":169,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://savorandspoon.com/wp-content/uploads/2025/02/BBQ-Chicken-Wraps-12-683x1024.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsh2s0x3mcqv392c","name":"TANDOORI WRAPS","options":[{"uid":"price_mljsh2s4sisw7ka06","size":"VEG","price":169,"salePrice":null},{"uid":"price_mljshragq4hybf309vb","size":"PANEER","price":149,"salePrice":null},{"uid":"price_mljsht96f5d9p8j6zy8","size":"CHICKEN","price":169,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://recipes.timesofindia.com/photo/62194857.cms?imgsize=484045","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmraf4drgkoj6mp49at","name":"Chicken Barbeque Wrap","options":[{"uid":"price_mmraf4dyrkrgiaqm8ak","size":"","price":169,"salePrice":null}],"categoryId":"cat_mksphn24kun3yzf6f","description":"","imageUrl":"https://i.pinimg.com/originals/6c/da/4c/6cda4c9c7b1f041e24c98fb3748310dc.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr8jetqvztwmkp9f8","name":"ALOO TIKKI ","options":[{"uid":"price_mksr8jezcsdfmsypg5","size":"","price":119,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://c.ndtvimg.com/2023-06/nl2hone_grilled-sandwich-3_625x300_08_June_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr99i2al048qspwo6","name":"VEG","options":[{"uid":"price_mksr99i606wz2mi2qfmr","size":"","price":129,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://static.vecteezy.com/system/resources/previews/002/266/985/large_2x/club-sandwich-with-french-fries-free-photo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksr9xfv8nxyp2hxx4d","name":"CORN & CHEESE","options":[{"uid":"price_mksr9xg0mmdn246jm9","size":"","price":159,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://i.pinimg.com/originals/6f/21/d6/6f21d6c9d7cb390302124553736b7cdb.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkus3r1f65p1asp8mt5","name":"PANEER ","options":[{"uid":"price_mkus3r1jmz4dyqcirxn","size":"","price":159,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://freshfusioncafe.com/wp-content/uploads/2024/10/Paneer-Sandwich-Fresh-Fusion.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkus44b3djn6gsq34fk","name":"VEG CHEESE","options":[{"uid":"price_mkus44b7uul8lpgwyz","size":"","price":149,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://i.ytimg.com/vi/hbccsqn9KVc/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkus4qs5ai9520v7srw","name":"PANEER CHEESY ","options":[{"uid":"price_mkus4qs8eam4z1mnefn","size":"","price":179,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://www.espressodrive.in/wp-content/uploads/2022/11/Tandoori-Paneer-Sandwich-n.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkusl1tlqrnrhi112c","name":"CHICKEN HAM ","options":[{"uid":"price_mkusl1tqfmkxwwmidxp","size":"","price":199,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://i.ytimg.com/vi/8Mjnz7AuqBg/hqdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuslm8bzgd57b2uew","name":"CHICKEN SEEKH KEBAB ","options":[{"uid":"price_mkuslm8g1vgqhk15j1w","size":"","price":199,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://i.ytimg.com/vi/2_ZTyThxEJk/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkusmb6pz7rdcxcaj5l","name":"CHICKEN ","options":[{"uid":"price_mkusmb6u674v99lcr7r","size":"","price":199,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://img-global.cpcdn.com/recipes/33fa867c0a6a8dc1/1200x630cq70/photo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrckcyusiywtohjqxj","name":"Bombay Masala Sandwich","options":[{"uid":"price_mmrckcyzmbu4lxodm3","size":"","price":179,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://i.pinimg.com/originals/60/39/c2/6039c2d29b613b5b9b19b01727c583ec.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrcn0te54pmm6y7z9b","name":"Chicken Sausage Sandwich","options":[{"uid":"price_mmrcn0tjhzu9g1t18wo","size":"","price":199,"salePrice":null}],"categoryId":"cat_mkspi3pjohhovu6lasq","description":"","imageUrl":"https://www.alfrescoallnatural.com/wp-content/uploads/2025/04/TWB_1884-Edit-scaled.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrap5mrs93qbpq6a","name":"MIX VEG ","options":[{"uid":"price_mksrap5pk03w4l3l88","size":"","price":209,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://foods.qmanja.com/MenuImages/Menu5114-Mix-veg-pizza.jpg.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrb702nuyojoc4sjo","name":"CORN & CHEESE","options":[{"uid":"price_mksrb708yxdjgd8d5js","size":"","price":229,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://i.ytimg.com/vi/b2mgLHEGFWg/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuq4g53aefegb00rgg","name":"PANEER CHEESE PIZZA ","options":[{"uid":"price_mkuq4g58ic6bs2aptsi","size":"","price":229,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://www.crazycheesy.com/wp-content/uploads/2022/11/TRIO-PANEER-OVERLOAD-PIZZA.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuq74xybhuglfdoh27","name":"TANDOORI PANEER ","options":[{"uid":"price_mkuq74y30bcl1d937cyl","size":"","price":239,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://img.freepik.com/premium-photo/paneer-pizza_13329-654.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljslgaswvyoymdr2ul","name":"MARGHERITA  (CHEESE)","options":[{"uid":"price_mljslgawhxe0qn1pu","size":"REGULAR","price":199,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://rakijagrill.com/wp-content/uploads/2020/07/Margherita-.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsn1oeul3svyf9uig","name":"CHICKEN SALAMI PIZZA","options":[{"uid":"price_mljsn1oh5h6pp1incrk","size":"REGULAR","price":279,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://i.ytimg.com/vi/BTMY3DxZwfY/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsoj402uh65hhwm7q","name":"CHICKEN SAUSAGE PIZZA","options":[{"uid":"price_mljsoj44xgh8o078k3i","size":"REGULAR","price":289,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://thealmondeater.com/wp-content/uploads/2025/04/chicken-sausage-pizza_web-1-683x1024.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljspoyx7rqy5201hzf","name":"CHICKEN SEEKH KEBAB PIZZA","options":[{"uid":"price_mljspoz3rir668rqudn","size":"REGULAR","price":279,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://img-global.cpcdn.com/recipes/29eca7bfd066cefb/680x482cq70/spicy-chicken-seekh-kabab-pizza-authentic-recipe-recipe-main-photo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsqsyy2wnao17uvht","name":"CAFÉ's NON VEG SPECIAL PIZZA","options":[{"uid":"price_mljsqsz3qw9jiefpn2","size":"REGULAR","price":309,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://www.crazymasalafood.com/wp-content/images/chicken-pizza.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljss2zu3ko0mpqmck4","name":"CAFÉ's VEG SPECIAL PIZZA","options":[{"uid":"price_mljss302krfzmpibegf","size":"REGULAR","price":249,"salePrice":null}],"categoryId":"cat_mkspiyyxccws9fcispb","description":"","imageUrl":"https://lepalaiscafe.com/wp-content/uploads/2024/02/Vegetable-Pizza.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksresuokw5bqdh9nu","name":"VEG CHOWMIN","options":[{"uid":"price_mksresurt5g9rrcyg0c","size":"HALF","price":60,"salePrice":null},{"uid":"price_mkuqdxsnpydp42495h","size":"FULL","price":120,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://gunjanchopra.com/content/images/2022/03/Feature-Image.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrf8fm6x0zycc3iz7","name":"EGG CHOWMIN","options":[{"uid":"price_mksrf8fqycd4xqdlj9l","size":"HALF","price":75,"salePrice":null},{"uid":"price_mkuqf6rmwt70rqy4wc","size":"FULL","price":125,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://i.ytimg.com/vi/XYmeKMRahuU/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuqfxwb0w9zmv4g3wrj","name":"CHICKEN CHOWMIN","options":[{"uid":"price_mkuqfxwi5ldq2zqcw0q","size":"HALF","price":90,"salePrice":null},{"uid":"price_mkuqhxrotfnzwe79e4","size":"FULL","price":160,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://img-global.cpcdn.com/recipes/61a3068623e7eb8f/1360x964cq70/egg-chicken-chowmein.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuqigssfyd7dk7th6","name":"EGG CHICKEN CHOWMIN","options":[{"uid":"price_mkuqigsw2zampw8x18","size":"HALF","price":105,"salePrice":null},{"uid":"price_mkuqizly6sc3qx9y47x","size":"FULL","price":190,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://4.bp.blogspot.com/-WVcv2LJS8XI/U1JOIiYoAUI/AAAAAAAACVs/HYJ1SZy9IJE/s1600/egg+chowmein+012.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuql1l5ex7sz5vjz1p","name":"VEG FRIED RICE","options":[{"uid":"price_mkuql1la5cwf6gow062","size":"HALF","price":65,"salePrice":null},{"uid":"price_mkuqld8gow0fcyd3uzo","size":"FULL","price":100,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://www.scrumptiously.com/wp-content/uploads/2023/02/VegetableFriedRice.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuqmla4aysq7ijr1io","name":"EGG FRIED RICE","options":[{"uid":"price_mkuqmlaaxgaebxv8rc","size":"HALF","price":75,"salePrice":null},{"uid":"price_mkuqn82snl505pfn38b","size":"FULL","price":125,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://recipemaestro.com/wp-content/uploads/2025/07/Egg-Fried-Rice-1.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkut112rc65914pjvu9","name":"PANEER CHILLI","options":[{"uid":"price_mkut112w740yb39j12s","size":"HALF","price":150,"salePrice":null},{"uid":"price_mkut1z02mzf0jsi4jmd","size":"FULL","price":240,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://i.pinimg.com/originals/bd/d2/cf/bdd2cf973419568da097ed78072c43d2.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkut2nm29nkdd1m6pyh","name":"CHICKEN CHILLI","options":[{"uid":"price_mkut2nm5tr5glzf1ky","size":"HALF","price":150,"salePrice":null},{"uid":"price_mkut36v75b3r5hdlu1g","size":"FULL","price":240,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://i.ytimg.com/vi/pMCS1TR4Wyo/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkut3ta3vm2lbgisrf","name":"POTATO CHILLI","options":[{"uid":"price_mkut3taac8jb9xs8eva","size":"HALF","price":110,"salePrice":null},{"uid":"price_mkut4912zl5sgzyycw","size":"FULL","price":190,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://i.ytimg.com/vi/29t-OJHSU8Y/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkut4obmoyshhzrzq3","name":"BBQ WINGS","options":[{"uid":"price_mkut4obpp3fw2mk30t","size":"HALF","price":189,"salePrice":null},{"uid":"price_mkut58fhqry4rdleb9a","size":"FULL","price":310,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://www.hotwingscafe.net/wp-content/uploads/2015/01/HWC-74.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkut5qzlj1di362ypy","name":"KOREAN WINGS","options":[{"uid":"price_mkut5qzoi0z2foqzun","size":"HALF","price":189,"salePrice":null},{"uid":"price_mkut61ewer4lqa5i1fi","size":"FULL","price":310,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://i.pinimg.com/originals/ec/8a/ee/ec8aee3d078af75d59d2065bb774903b.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljswurcxt3ofsj6h3i","name":"KOREAN GOCHUIANG WINGS (4/8 pcs) ","options":[{"uid":"price_mljswurh9jzjbtwv9mo","size":"HALF","price":189,"salePrice":null},{"uid":"price_mljsxcgdw1tznp7rzis","size":"FULL","price":310,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://www.lordbyronskitchen.com/wp-content/uploads/2022/05/Spicy-Korean-Gochujang-Chicken-Wings-f.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljszgvpciz00shhs1p","name":"CHICKEN FRIED RICE","options":[{"uid":"price_mljszgvvdapv91wec07","size":"HALF","price":100,"salePrice":null},{"uid":"price_mljszzgegqew4tge9xh","size":"FULL","price":190,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://christieathome.com/wp-content/uploads/2022/04/Chinese-Chicken-Fried-Rice-5.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt1kd9xekcgzhmoz","name":"EGG CHICKEN FRIED RICE","options":[{"uid":"price_mljt1kdgkh6tzt6hcws","size":"HALF","price":120,"salePrice":null},{"uid":"price_mljt1yv3fm0bcd3kuqn","size":"FULL","price":210,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://www.thesouthafrican.com/wp-content/uploads/2020/06/b2c6bacf-chicken-fried-rice-recipe-1200x858.jpeg.optimal.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt2s6y2i2pbx5xk5l","name":"VEG MANCHURIAN GRAVY","options":[{"uid":"price_mljt2s73fc14u4lg7q4","size":"HALF","price":80,"salePrice":null},{"uid":"price_mljt2yep88ya52rw2i8","size":"FULL","price":130,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://kannanskitchen.com/wp-content/uploads/2021/05/IMG_20200927_142549_Bokeh-1024x712.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt5xsfzp8hxc2m16l","name":"PANEER MANCHURIAN GRAVY","options":[{"uid":"price_mljt5xsl0w0wmj36c1i","size":"HALF","price":110,"salePrice":null},{"uid":"price_mljt69e2ziwuty5ji4","size":"FULL","price":190,"salePrice":null}],"categoryId":"cat_mkspo1o7uu4qof3jaw","description":"","imageUrl":"https://www.blog.123coimbatore.com/uploads/blog-images/05-03-2021_03-40-37_paneer.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbd6umj7ues39zht","name":"Chicken Samosa ","options":[{"uid":"price_mmrbd6usjqff1dhn1to","size":"(5 Pieces)","price":159,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://www.mozismenu.com/wp-content/uploads/2017/04/Chicken-Keema-Samosa-0.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkl4h0upfuzh4dj1jj","name":"TANDOORI CHICKEN","options":[{"uid":"price_mlkl4h10ac67112wrlw","size":"HALF","price":160,"salePrice":null},{"uid":"price_mlkl5pcogyz8zahosvs","size":"FULL","price":280,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-threeByTwoMediumAt2X.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkl6kakpsmh9frc5s","name":"LEG KEBAB","options":[{"uid":"price_mlkl6kasg9maalww3eo","size":"REGULAR ","price":80,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://i.ytimg.com/vi/2QRlzd2hFjY/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkl95977zgrgg6d0dt","name":"CHICKEN CHILLI BONE","options":[{"uid":"price_mlkl959cet74xp7k8s6","size":"REGULAR","price":130,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://i.ytimg.com/vi/pMCS1TR4Wyo/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkladcu9319l9204yk","name":"CHICKEN CHILLI BONELESS","options":[{"uid":"price_mlkladczmdhc277em2r","size":"REGULAR","price":160,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://www.wikihow.com/images/c/cb/Prepare-Chilli-Chicken-Step-17.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlklbupvsobop0ktuu","name":"CHICKEN BUTTER MASALA ","options":[{"uid":"price_mlklbuq0camgzs88y2j","size":"HALF","price":140,"salePrice":null},{"uid":"price_mlkld91e9ztv67qx3jh","size":"FULL","price":260,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"FULL 4 pcs, HALF 2 pcs","imageUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/chicken-butter-masala-recipe.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlklgriiwgt5swv55l","name":"CHICKEN TIKKA BUTTER MASALA ","options":[{"uid":"price_mlklgrincf3ludad05t","size":"HALF","price":160,"salePrice":null},{"uid":"price_mlklhtkjxz5yjpu6ceo","size":"FULL","price":300,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"HALF (4 pcs) and FULL (8 pcs)","imageUrl":"https://www.jaffnalove.com/925-thickbox_default/butter-chicken-masala.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbiezy5oddb7edevi","name":"Chicken Spring Roll ","options":[{"uid":"price_mmrbif0428ou6ta967b","size":"4 pcs","price":159,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://images-gmi-pmc.edge-generalmills.com/79c6ac0a-67cc-4556-8d4c-3019280b52bc.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbk2uwtkcws5i00hk","name":"Crunchy Fried Chicken ","options":[{"uid":"price_mmrbk2v2qjfrzxqwa7","size":"2 pcs","price":159,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://img.freepik.com/premium-photo/crunchy-fried-chicken-tenders-charming-cafe-setting_1252915-6628.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbn60uq8q84v2vt6","name":"Chicken Popcorn ","options":[{"uid":"price_mmrbn6103hgw7t8ecew","size":"12 pcs","price":139,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://www.recipetineats.com/tachyon/2025/01/Popcorn-chicken_2-close-up.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbpw8qwzp5crw7nqp","name":"Chicken Spicy Wings ","options":[{"uid":"price_mmrbpw8troxbfsqjw6","size":"4 pcs","price":159,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://recipeflow.com/wp-content/uploads/2015/04/spicy-chicken-wings-recipe-with.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbwg7va7496am758s","name":"Chicken Breast Strips ","options":[{"uid":"price_mmrbwg81b2qwgxs7szg","size":"5 pcs","price":159,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbxz7ne967u2opga9","name":"Chicken Fries","options":[{"uid":"price_mmrbxz7ragwtgy3w8kf","size":"","price":139,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://www.tastingtable.com/img/gallery/burger-king-debuts-spicy-chicken-fries-on-its-spring-menu/l-intro-1677606238.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrc1afwgm7b89av85i","name":"Chicken Garlic Fingers ","options":[{"uid":"price_mmrc1afzo8pptkr6evh","size":"5 pcs","price":139,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://paleogrubs.com/wp-content/uploads/2020/06/honey-garlic-chicken-fingers-9.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrc341nl6ndgcmzs6h","name":"Chicken Nuggets ","options":[{"uid":"price_mmrc341rznm2vem689r","size":"8 pcs","price":139,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://as2.ftcdn.net/v2/jpg/00/85/64/61/1000_F_85646100_AhagbxIwy910vGyh8JIxGWfV01W3TBmU.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrc4ld97mo5oziomrl","name":"Extra Loaded Chicken Cheesy Garlic Bread ","options":[{"uid":"price_mmrc4lddvb3il11ikbc","size":"5 pcs","price":219,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://myhomemaderecipe.com/assets/images/1737171303937-7zb7jdem.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrc7e4up7pi8sjvgg","name":"Chicken Cheese Garlic Bread ","options":[{"uid":"price_mmrc7e4xse8hlewfouj","size":"5 pcs","price":189,"salePrice":null}],"categoryId":"cat_mlkl1y8mhmr31fv9mtp","description":"","imageUrl":"https://quickierecipe.com/assets/images/1736431011287-nfqa1qrb.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrghw7e9zx3c018k8","name":"ALOO PARATHA","options":[{"uid":"price_mksrghwdcfpfm4wkb07","size":"2 pcs","price":95,"salePrice":null}],"categoryId":"cat_mkspp5l8gn8cbzbbukh","description":"","imageUrl":"https://images.hindustantimes.com/img/2023/01/25/1600x900/aloo_paratha_1645109648403_1674659245063_1674659245063.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuprayr2hqymnv6bi2","name":"METHI PARATHA","options":[{"uid":"price_mkuprayxjjmuknnpsor","size":"2 pcs","price":95,"salePrice":null}],"categoryId":"cat_mkspp5l8gn8cbzbbukh","description":"","imageUrl":"https://www.subbuskitchen.com/wp-content/uploads/2014/07/Methi-Paratha_Final2-686x1024.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkupt9gu9o3647oz5r4","name":"MATAR PARATHA","options":[{"uid":"price_mkupt9gx1wtpcx63k2d","size":"2 pcs","price":95,"salePrice":null}],"categoryId":"cat_mkspp5l8gn8cbzbbukh","description":"","imageUrl":"https://img.freepik.com/premium-photo/green-peas-paratha-flatbread-matar-parathas-with-curd-hot-tea_466689-76598.jpg?w=2000","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkupwowx5i3x4mzjuxi","name":"GOBI PARATHA","options":[{"uid":"price_mkupwox1evsyf1r800f","size":"2 pcs","price":95,"salePrice":null}],"categoryId":"cat_mkspp5l8gn8cbzbbukh","description":"","imageUrl":"https://www.subbuskitchen.com/wp-content/uploads/2017/04/Gobi-Paratha_final2.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrabyw3fme4tje1qdi","name":"MALABAR PARATHA","options":[{"uid":"price_mmrabyw7uifpg207wm","size":"2 pcs","price":95,"salePrice":null}],"categoryId":"cat_mkspp5l8gn8cbzbbukh","description":"","imageUrl":"https://hungryforever.net/wp-content/uploads/2017/02/malabar-paratha-recipe.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrh5gorzbgckozial","name":"MINT BLAST ","options":[{"uid":"price_mksrh5grbp7n0g3jm65","size":"","price":95,"salePrice":null}],"categoryId":"cat_mkspqhl9zpjk6xcxpts","description":"","imageUrl":"https://img.freepik.com/premium-photo/lime-lemon-mint-blast-unleashing-refreshment-with-generative-ai-cocktails_1000124-46656.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkupdknx9pj9tc23ifv","name":"GREEN GRANNY MOJITO","options":[{"uid":"price_mkupdko3gwh5t1vqwg","size":"","price":95,"salePrice":null}],"categoryId":"cat_mkspqhl9zpjk6xcxpts","description":"","imageUrl":"https://i.pinimg.com/originals/f6/94/c5/f694c5b906b65572f0acd7d84094eb20.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuph7mlkt144w6n89e","name":"SUMMER DELIGHT","options":[{"uid":"price_mkuph7mqq55pnai4acd","size":"","price":95,"salePrice":null}],"categoryId":"cat_mkspqhl9zpjk6xcxpts","description":"","imageUrl":"https://thumbs.dreamstime.com/b/refreshing-aperol-spritz-cocktail-sunny-beach-capturing-concept-aperitif-sea-refreshing-aperol-spritz-307085368.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkupi6267qh70xp8ulp","name":"BLUE MARGARITA ","options":[{"uid":"price_mkupi629rsjwmk3l67c","size":"","price":95,"salePrice":null}],"categoryId":"cat_mkspqhl9zpjk6xcxpts","description":"","imageUrl":"https://www.thecookierookie.com/wp-content/uploads/2019/06/blue-margarita-recipe-3-of-10.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrhxmi949hq1kznis","name":"STRAWBERRY ","options":[{"uid":"price_mksrhxml4drxdp20m2i","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://img.freepik.com/premium-photo/strawberry-shake-frosted-glass-with-straw_124507-292205.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrieigd1kihbawg87","name":"MANGO","options":[{"uid":"price_mksrieijkp0au4z794h","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://www.kawalingpinoy.com/wp-content/uploads/2015/04/mango-shake-3.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuoyc2k7myavivtkpr","name":"BUTTERSCOTCH ","options":[{"uid":"price_mkuoyc2n7mctjmmxrom","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://www.nourishnutritionblog.com/wp-content/uploads/2022/04/Butterscotch-shake-with-caramel-768x1152.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuozguoqrov26khlqq","name":"PINEAPPLE ","options":[{"uid":"price_mkuozgurscmhal16gdq","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/pineapple-milkshake.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup0v1rna1872md4wc","name":"ORANGE ","options":[{"uid":"price_mkup0v1uu6gj3yvbce","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://cdn1.foodviva.com/static-content/food-images/milkshake-recipes/orange-shake-recipe/orange-shake-recipe.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup1f3hvgdzro43obs","name":"LITCHI","options":[{"uid":"price_mkup1f3lunl4hup8x8m","size":"","price":110,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://i.ytimg.com/vi/FBvYLXiDCtg/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup1r3aapzzmcnvlqs","name":"BLUEBERRY ","options":[{"uid":"price_mkup1r3dfei4jjituha","size":"","price":130,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://www.nogettingoffthistrain.com/wp-content/uploads/2023/06/Blueberry-protein-shake-7-scaled.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup2mimxwc7sx2astg","name":"BLACKCURRENT","options":[{"uid":"price_mkup2miq4qs2b5d39sb","size":"","price":130,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://www.mrcoconut.in/img/products/25_10_2021_10_41_978_am.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup39l1c3e18iq55lt","name":"KIWI","options":[{"uid":"price_mkup39l5ri0smvaw03","size":"","price":130,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://images.eatsmarter.de/sites/default/files/styles/max_size/public/kiwi-milchshake-160911.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup3nsimnddx8ehld","name":"OREO","options":[{"uid":"price_mkup3nsokba2efkxk9","size":"","price":140,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://static.india.com/wp-content/uploads/2024/07/oreo-shake.jpg##image/jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkup477fhdt9rlafuyt","name":"KITKAT","options":[{"uid":"price_mkup477ju3y03d2n46j","size":"","price":140,"salePrice":null}],"categoryId":"cat_mksps0kw7i0eloi7t6y","description":"","imageUrl":"https://foodtippr.com/wp-content/uploads/2017/08/Kitkat_Shake-4.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrj1hl4o6ym68dkrq","name":"AFGANI  CHAAP","options":[{"uid":"price_mksrj1hojo9rmd1uz1","size":"","price":180,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://images.marico.in/800x0/uploads/afgani-chaap-1-3543.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuoftta85js58rtria","name":"MALAI CHAAP","options":[{"uid":"price_mkuofttf2acjrwfwwj5","size":"","price":180,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://theyellowbowl.in/wp-content/uploads/2023/02/Afghani-Chaap-2.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuog8zsm0i35sxq0fl","name":"TANDOORI CHAAP","options":[{"uid":"price_mkuog8zy4c9e7flaup","size":"","price":180,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://img-global.cpcdn.com/recipes/de247dc0c86aed26/1200x630cq70/photo.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuoguz5x2atg7owolr","name":"PUNJABI SPICY CHAAP","options":[{"uid":"price_mkuoguzadhjbm9yhsq7","size":"","price":180,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://www.funfoodfrolic.com/wp-content/uploads/2022/08/Soya-Chaap-Blog-500x500.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuohfie9yeai4bgcxa","name":"CHATPATA CHAAP","options":[{"uid":"price_mkuohfihbdyy9xyob0r","size":"","price":180,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://i.ytimg.com/vi/uzWXpNcCq30/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuohtq9vyobu89i46","name":"SOYA CHAAP BUTTER MASALA ","options":[{"uid":"price_mkuohtqfjxyhc2uj8ep","size":"","price":230,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://indianthali.ca/wp-content/uploads/2021/06/Butter-Soya-Chaap.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljsu0c86splp5ew7no","name":"TAWA CHAAP GRAVY  ","options":[{"uid":"price_mljsu0cd8xtb3s56dbu","size":"REGULAR","price":230,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://i.ytimg.com/vi/G23fldodCwk/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkl2o4348vxiel6i2a","name":"SOYA CHILLI","options":[{"uid":"price_mlkl2o4f3djdyqzhcmv","size":"REGULAR","price":70,"salePrice":null}],"categoryId":"cat_mksptcmkkbbp21s586","description":"","imageUrl":"https://i.pinimg.com/originals/fa/39/0d/fa390db69479bcddfe4ca6e82254b5bc.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrjn3nmywtsorzt8a","name":"TEA","options":[{"uid":"price_mksrjn3qq79q68lpzug","size":"","price":20,"salePrice":null}],"categoryId":"cat_mkspu3uwqovw516zgim","description":"","imageUrl":"https://www.saga.co.uk/helix-contentlibrary/exceptional/2023/02/aerial-shot-of-a-cup-of-tea.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mksrk2b9xaa5qawl3cm","name":"COFFEE ","options":[{"uid":"price_mksrk2bcn6nhcpeozzh","size":"","price":40,"salePrice":null}],"categoryId":"cat_mkspu3uwqovw516zgim","description":"","imageUrl":"https://brookrest.com/wp-content/uploads/2020/05/AdobeStock_315919556-scaled.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuoieq78txsw1l9voi","name":"TAWA CHAAP GRAVY","options":[{"uid":"price_mkuoieqdj2s27xuv2m","size":"","price":230,"salePrice":null}],"categoryId":"","description":"","imageUrl":"","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuowbvuje6g6sgy53","name":"BUTTERSCOTCH ","options":[{"uid":"price_mkuowbvzkgft4wc9088","size":"","price":null,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://www.nourishnutritionblog.com/wp-content/uploads/2022/04/Butterscotch-shake-with-caramel-768x1152.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkupgxv13kk2owlw5tk","name":"SUMMER DELIGHT","options":[{"uid":"price_mkupgxv6ho50c1hb5qf","size":"","price":null,"salePrice":null}],"categoryId":"","description":"","imageUrl":"","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuphvvepgsy0ffqapa","name":"BLUE MARGARITA","options":[{"uid":"price_mkuphvvh3ht8ljfjyei","size":"","price":null,"salePrice":null}],"categoryId":"","description":"","imageUrl":"","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkuq8q0700wzl0b4zvmhc","name":"MARGARITA CHEESE","options":[{"uid":"price_mkuq8q0bfudc7p9fppc","size":"","price":199,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://thumbs.dreamstime.com/b/pizza-margarita-cheese-pizza-margarita-cheese-tomatoes-122795906.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt4f8jksohp6055z","name":"PANEER MANCHURIAN GRAVY","options":[{"uid":"price_mljt4f8p9i1dlzvpe1","size":"HALF","price":110,"salePrice":null},{"uid":"price_mljt521r0emceory45vi","size":"FULL","price":190,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://www.blog.123coimbatore.com/uploads/blog-images/05-03-2021_03-40-37_paneer.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt7wfb22umw6jb3ep","name":"CHICKEN NUGGETS (8pcs)","options":[{"uid":"price_mljt7wfeopfokadoqj9","size":"","price":null,"salePrice":null}],"categoryId":"","description":"","imageUrl":"","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljttlqd3en1a1af2do","name":"CHEESY FRIES","options":[{"uid":"price_mljttlqhs5n75ckbbi","size":"REGULAR","price":129,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://fitfoodfunwithann.com/wp-content/uploads/2025/02/Image_3-126.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtvyso7domm5kfq6i","name":"CHEESY FRIES","options":[{"uid":"price_mljtvysut5qoxw3i9dd","size":"REGULAR","price":129,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://admin.qualityfoods.com.bd/storage/category/2023-08-08-64d1b8e7441b2.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkleamm8cabxvyjab","name":"CHICKEN TIKKA BUTTER MASALA ","options":[{"uid":"price_mlkleamp9ttd57ik1fm","size":"FULL( 8 pcs)","price":300,"salePrice":null},{"uid":"price_mlklf6zbmj6cqg2l3s","size":"HALF( 4 pcs)","price":160,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://www.jaffnalove.com/925-thickbox_default/butter-chicken-masala.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbsth14bg28ptizzt","name":"Chicken Breast Strips ","options":[{"uid":"price_mmrbsth5vgwlgcevbxq","size":"5 pcs","price":159,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrbvexabl4ahi5fkef","name":"Chicken Breast Strips ","options":[{"uid":"price_mmrbvexe96crezzfg5i","size":"5 pcs","price":159,"salePrice":null}],"categoryId":"","description":"","imageUrl":"https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrf8klldc2otqribls","name":"","options":[{"uid":"price_mmrf8klpkazgxt32h7g","size":"","price":null,"salePrice":null}],"categoryId":"","description":"","imageUrl":"","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mkutthd4ije89hl616c","name":"Chicken Egg Biryani","options":[{"uid":"price_mkutthd9c4i9qngq8s","size":"Half","price":130,"salePrice":null},{"uid":"price_mkutu40yahfrsanu3le","size":"Full","price":220,"salePrice":null}],"categoryId":"cat_mkutqlqd1wdi3mlakwt","description":"","imageUrl":"https://matancafe.com/wp-content/uploads/2023/09/Biryani-rice.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt81xfes5mbru1oz4","name":"CHICKEN NUGGETS (8pcs)","options":[{"uid":"price_mljt81xl2u7dslt381y","size":"REGULAR","price":139,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://royalburgerking.com/wp-content/uploads/2023/11/chicken-nuggets-1.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt8jk7lcrt0w0miw","name":"CHICKEN GARLIC FINGERS (5pcs)","options":[{"uid":"price_mljt8jkc776erc10suj","size":"REGULAR","price":139,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://paleogrubs.com/wp-content/uploads/2020/06/honey-garlic-chicken-fingers-9.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt90yaodki8e8ae7l","name":"CHICKEN FRIES","options":[{"uid":"price_mljt90yg6kh9vhd2qug","size":"REGULAR","price":139,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://www.airfryeryum.com/wp-content/uploads/2023/05/IMG_6922.jpeg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt9dm4h9rp20098n","name":"CHICKEN POPCORN (12pcs)","options":[{"uid":"price_mljt9dmbo0iyphpt20k","size":"REGULAR","price":139,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://5.imimg.com/data5/SELLER/Default/2023/2/QB/JC/ZQ/4609069/frozen-ready-to-eat-chicken-popcorn-1000x1000.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljt9rbj5f6x3w7vxue","name":"CHICKEN BREAST STRIPS(5pcs)","options":[{"uid":"price_mljt9rbn5cv7w8gcbwh","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljta80a3l2vdzg766g","name":"CHICKEN SPICY WINGS (4pcs)","options":[{"uid":"price_mljta80d8ltlqa49dop","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://www.eatwellfood.com.np/wp-content/uploads/2025/03/Spicy-Chicken-Wings-4-pcs.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtaqxx65pwnbj3sme","name":"CRUNCHY FRIED CHICKEN  ","options":[{"uid":"price_mljtaqy0alwymxgdt8m","size":"2 pcs","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://recipes.net/wp-content/uploads/2020/04/classic-crunchy-fried-chicken-recipe.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtb8rl63yopkr9lfi","name":"CHICKEN SPRING ROLL (4pcs)","options":[{"uid":"price_mljtb8rq2kdfqg9e3k3","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://www.inspiredtaste.net/wp-content/uploads/2025/03/Chicken-Spring-Rolls-Recipe-1.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtbojzxmdjocldh98","name":"CHICKEN SAMOSA (5pcs)","options":[{"uid":"price_mljtbok4txqnzgpubtt","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://cdn.beyondthebayoublog.com/wp-content/uploads/2025/06/Easy-Chicken-Samosa-1200x904.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtu7b4y2jcbv0it6p","name":"CHEESE CORN NUGGETS(7 pcs)","options":[{"uid":"price_mljtu7b7rc8l2eax7mi","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspmmfc83myrc27tn2","description":"","imageUrl":"https://admin.qualityfoods.com.bd/storage/category/2023-08-08-64d1b8e7441b2.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtk3ebr8v9sa1krc","name":"FRENCH FRIES","options":[{"uid":"price_mljtk3eit45yty48hls","size":"REGULAR","price":99,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://static.fanpage.it/wp-content/uploads/sites/22/2020/09/iStock-618214356.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtl2kva91khhp3llf","name":"PERI PERI FRIES","options":[{"uid":"price_mljtl2l187ya4wd449w","size":"REGULAR","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://i.pinimg.com/originals/d5/1b/a4/d51ba46b4f8996e8f69fdf852bf8fbec.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtm3s65ed4bvnbk9k","name":"VEG CUTLET (2 pcs)","options":[{"uid":"price_mljtm3s9ts6c1l8572r","size":"REGULAR ","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://www.whiskaffair.com/wp-content/uploads/2019/11/Veg-Cutlet-1-3.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtndyj37k5kty6ohx","name":"SPRING ROLL (4 pcs)","options":[{"uid":"price_mljtndyou71z7gcmrw","size":"REGULAR","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://www.spicebangla.com/wp-content/uploads/2024/06/Spring-Roll-Recipe.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtom6eqsttp69am8","name":"CHILLI GARLIC BITES (12 pcs)","options":[{"uid":"price_mljtom6jbsyamtnfb2m","size":"REGULAR","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://m.media-amazon.com/images/S/aplus-media-library-service-media/dddbc52d-90b5-4285-99b3-0fc651553d12.__CR0,0,970,600_PT0_SX970_V1___.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtqckbiwvwo5hor3l","name":"VEGGI FINGERS (4pcs)","options":[{"uid":"price_mljtqckh6tjcnvaf9nu","size":"REGULAR ","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://www.lordbyronskitchen.com/wp-content/uploads/2020/06/5-3-800x533.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtrzdhm9lkf7cc4wg","name":"HASH BROWN TIKKI (4 pcs)","options":[{"uid":"price_mljtrzdmb6kf3r0nzr","size":"REGULAR","price":119,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://3.bp.blogspot.com/-H0gOKCktn4U/Ub5UXc_GICI/AAAAAAAAIYc/UbUvvGrUF4I/s640/IMG_3944.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljtwvdsdqovy40p8q","name":"CHEESE CORN NUGGETS(7 pcs)","options":[{"uid":"price_mljtwvdy5v03p3od9k5","size":"REGULAR","price":159,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://admin.qualityfoods.com.bd/storage/category/2023-08-08-64d1b8e7441b2.png","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mljty5g06bs1o9rgwkt","name":"CHEESY FRIES","options":[{"uid":"price_mljty5g5x5qt886am69","size":"REGULAR","price":129,"salePrice":null}],"categoryId":"cat_mkspli2kz3c3p6snkj","description":"","imageUrl":"https://t4.ftcdn.net/jpg/05/66/43/37/360_F_566433753_F2DeZUeBJKPPSoAmwWFthUGijxQYmrTg.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlkl3sdymoaj8x0yult","name":"SOYA CHILLI","options":[{"uid":"price_mlkl3se7ky7xtkd24qr","size":"REGULAR","price":70,"salePrice":null}],"categoryId":"cat_mlkl1psnqs4mn9mqzxc","description":"","imageUrl":"https://i.pinimg.com/originals/fa/39/0d/fa390db69479bcddfe4ca6e82254b5bc.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mlklimpmvuy1rsubizm","name":"MUTTON HANDI","options":[{"uid":"price_mlklimpr4gqnrnq464y","size":"1 KG ","price":1300,"salePrice":null},{"uid":"price_mlkljq8mf4nes1o0t6o","size":"500 GM","price":700,"salePrice":null}],"categoryId":"cat_mlkl25mnazd9viymp7k","description":"","imageUrl":"https://i.ytimg.com/vi/gMeSz3ihNAw/maxresdefault.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false},{"uid":"pro_mmrcx4qainb5s0xm52a","name":"COLD COFFEE ","options":[{"uid":"price_mmrcx4qin2ty79cwrbp","size":"Cold Coffee ","price":90,"salePrice":null},{"uid":"price_mmrcz6uxjaipibixzwa","size":"Cold Coffee  With Ice-Cream","price":120,"salePrice":null}],"categoryId":"cat_mmrcw6s4sbz8ly8loi","description":"","imageUrl":"https://www.cookingclassy.com/wp-content/uploads/2022/07/iced-coffee-05.jpg","tags":[],"allergens":[],"inStock":true,"isArchived":false}],"allergens":[]};
-        createMenu(menuData, {
-            version: 1,
-            priceSymbol: '₹',
-            priceSymbolPosition: 1,
-            labels: {
-                allergens: 'Allergens',
-                outOfStock: 'Currently Unavailable',
-                categoryAll: 'All',
-            },
-            features: {
-                categoryTabs: true,
-                allergenTabs: true,
-            }
-        });
-        
-    } catch(e) {
-        console.error(e)
-    }
-</script>
+  import { createMenu } from "https://cdn.jsdelivr.net/npm/1food-menu@0.6.10/dist/1food-menu.mjs";
 
+  try {
+    const menuData = {
+      categories: [
+        {
+          uid: "cat_mkspemnziilnifc01e",
+          name: "BURGERS",
+          description: "VEG, PANEER, NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspf7xh9wkbjl4s03w",
+          name: "PASTA ",
+          description: "VEG,PANEER,NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspg856mmw8rvgrohr",
+          name: "MAGGIE ",
+          description: "VEG, PANEER, NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspgms090ye98yrqbq",
+          name: "MOMOS",
+          description: "VEG, PANEER, NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mksph6in0ee3k7v9fv7p",
+          name: "GARLIC BREAD ",
+          description: "VEG, PANEER, NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mksphn24kun3yzf6f",
+          name: "WRAPS",
+          description: "VEG, PANEER, NON-VEG",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspi3pjohhovu6lasq",
+          name: "SANDWICH ",
+          description: "VEG, NON-VEG, PANEER",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspiyyxccws9fcispb",
+          name: "PIZZA",
+          description: "All kinds of 🍕 pizzas.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspli2kz3c3p6snkj",
+          name: "MUNCHES VEG",
+          description:
+            "All kinds of fries , nuggets, roll , cutlets, tikki etc.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspmmfc83myrc27tn2",
+          name: "MUNCHES NON-VEG",
+          description:
+            "Chicken Nuggets, fingers, fries, popcorn, strips, wings, roll etc.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspo1o7uu4qof3jaw",
+          name: "CHINESE SPECIAL",
+          description: "Chowmin, Rice, Chillis, Wings etc.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspp5l8gn8cbzbbukh",
+          name: "BREADS",
+          description: "Aloo, Methi, Gobi, Matar and Malabar Paratha.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspqhl9zpjk6xcxpts",
+          name: "MOCKTAILS",
+          description:
+            "Mint Blast, Green Granny Mojito, Summer Delight and Blue Margarita.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mksps0kw7i0eloi7t6y",
+          name: "SHAKES",
+          description:
+            "Strawberry, Mango, Butterscotch, Orange, Litchi, Blueberry, Blackcurrent, Kiwi, Oreo, Kitkat.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mksptcmkkbbp21s586",
+          name: "SOYA CHAAP",
+          description:
+            "Afgani, Malai, Tandoori, Punjabi, Chatpata, Soya, Butter , Tawa and Masala Chaap.",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkspu3uwqovw516zgim",
+          name: "TEA / COFFEE ",
+          description: "Hot tea and Coffe",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mkutqlqd1wdi3mlakwt",
+          name: "BIRYANI",
+          description: "Hyderabadi Chicken 🐔 Dum biryani ",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mlkl1y8mhmr31fv9mtp",
+          name: "CHICKEN SPECIAL",
+          description: "",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mlkl25mnazd9viymp7k",
+          name: "MUTTON SPECIAL",
+          description: "",
+          isArchived: false,
+        },
+        {
+          uid: "cat_mmrcw6s4sbz8ly8loi",
+          name: "COLD COFFEE ",
+          description:
+            "A smooth, creamy blend of chilled coffee and milk, poured over ice 🧊 for that perfect refreshing kick 🌬️. Sweet, bold, and irresistibly cool 😎 ",
+          isArchived: false,
+        },
+      ],
+      products: [
+        {
+          uid: "pro_mkspusvf7h9z892udur",
+          name: "Classic Burger ",
+          options: [
+            {
+              uid: "price_mkspusvsupn07fvzl5r",
+              size: "VEG",
+              price: 99,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkspzxx9sboxug1bu7l",
+              size: "PANEER",
+              price: 119,
+              salePrice: null,
+            },
+            {
+              uid: "price_mksq0np8fo87wabw8ub",
+              size: "CHICKEN",
+              price: 129,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspemnziilnifc01e",
+          description: "",
+          imageUrl:
+            "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=500&q=80",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkspwnmu7ghuo4kw59p",
+          name: "Crispy Burgers ",
+          options: [
+            {
+              uid: "price_mkspwnn0zj5u0tnt5uf",
+              size: "VEG",
+              price: 119,
+              salePrice: null,
+            },
+            {
+              uid: "price_mksq338cimqphw3pitq",
+              size: "PANEER",
+              price: 139,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur190cjs7osjhog",
+              size: "CHICKEN",
+              price: 149,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspemnziilnifc01e",
+          description: "",
+          imageUrl: "https://media.timeout.com/images/103309515/image.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkspxo085o4a9knbwxx",
+          name: "Peri Peri Burger",
+          options: [
+            {
+              uid: "price_mkspxo0cqdymjm3ggac",
+              size: "VEG",
+              price: 109,
+              salePrice: null,
+            },
+            {
+              uid: "price_mksq4a9tmls0icn8tb",
+              size: "PANEER",
+              price: 129,
+              salePrice: null,
+            },
+            {
+              uid: "price_mksq4nzvxiu5toz2a7b",
+              size: "CHICKEN",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspemnziilnifc01e",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksq5ro63n5kevggbyp",
+          name: "TANDOORI BURGER",
+          options: [
+            {
+              uid: "price_mksq5ro9wbtfjh8wpd",
+              size: "VEG",
+              price: 109,
+              salePrice: 109,
+            },
+            {
+              uid: "price_mksq789so6ti5zustpo",
+              size: "PANEER",
+              price: 129,
+              salePrice: 129,
+            },
+            {
+              uid: "price_mksq7sr6ateywkfmxo",
+              size: "CHICKEN",
+              price: 139,
+              salePrice: 139,
+            },
+          ],
+          categoryId: "cat_mkspemnziilnifc01e",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksq8x16wiywva0cex",
+          name: "EXTRA CHEESY OVERLOADED ",
+          options: [
+            {
+              uid: "price_mksq8x19wcphc107gcm",
+              size: "VEG",
+              price: 149,
+              salePrice: 149,
+            },
+            {
+              uid: "price_mksq9o7i0u92p0efopjj",
+              size: "PANEER",
+              price: 169,
+              salePrice: 169,
+            },
+            {
+              uid: "price_mksqa14cpcew47v8kwh",
+              size: "CHICKEN",
+              price: 189,
+              salePrice: 189,
+            },
+          ],
+          categoryId: "cat_mkspemnziilnifc01e",
+          description: "",
+          imageUrl:
+            "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqgpybl4g2xv304ji",
+          name: "RED SAUCE ",
+          options: [
+            {
+              uid: "price_mksqgpyi75oquvidijh",
+              size: "VEG",
+              price: 120,
+              salePrice: 120,
+            },
+            {
+              uid: "price_mksqifvv998d4m4edl4",
+              size: "PANEER",
+              price: 140,
+              salePrice: 140,
+            },
+            {
+              uid: "price_mksqit1a8za6ddbooch",
+              size: "CHICKEN",
+              price: 170,
+              salePrice: 170,
+            },
+          ],
+          categoryId: "cat_mkspf7xh9wkbjl4s03w",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqjbnim8ddtmogfr",
+          name: "WHITE SAUCE ",
+          options: [
+            {
+              uid: "price_mksqjbnl5t5i1tlo21t",
+              size: "VEG",
+              price: 130,
+              salePrice: null,
+            },
+            {
+              uid: "price_mksqk27anawsbb4yr7",
+              size: "PANEER",
+              price: 150,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur4j72kdytqumj4q",
+              size: "CHICKEN",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspf7xh9wkbjl4s03w",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqkygyj8p3ilzgbh",
+          name: "MIX SAUCE ",
+          options: [
+            {
+              uid: "price_mksqkyh1kbo5b2ny73d",
+              size: "VEG",
+              price: 140,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur52s8piv8i1yzih",
+              size: "PANEER",
+              price: 170,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur533rcwzk0a5x8ho",
+              size: "CHICKEN",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspf7xh9wkbjl4s03w",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqlpjfbjxn2ugm0lk",
+          name: "BAKED MAC & CHEESE PASTA",
+          options: [
+            {
+              uid: "price_mksqlpjjn0t8frcu2n8",
+              size: "VEG",
+              price: 180,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur5lkoxvncj9f3dm",
+              size: "PANEER",
+              price: 200,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur5lpzked7e11b0b",
+              size: "CHICKEN",
+              price: 230,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspf7xh9wkbjl4s03w",
+          description: "",
+          imageUrl:
+            "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqn2z0e6vg5p4q4b",
+          name: "PLAIN MAGGIE",
+          options: [
+            {
+              uid: "price_mksqn2z6r45mtwj4om",
+              size: "VEG",
+              price: 70,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur6jnlbb89avv8rpu",
+              size: "PANEER",
+              price: 90,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur6rmtd73juivpp4j",
+              size: "CHICKEN",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspg856mmw8rvgrohr",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/meb9JbfNt98/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqrx0gfzmanysf9jo",
+          name: "SCHEZWAN MAGGIE",
+          options: [
+            {
+              uid: "price_mksqrx0lh679h2k02s",
+              size: "VEG",
+              price: 80,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur7kbuk7ooo4jdle",
+              size: "PANEER",
+              price: 100,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur7ki2gf9pfdtzu3n",
+              size: "CHICKEN",
+              price: 120,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspg856mmw8rvgrohr",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/utd8csFxMlk/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqt079ehs0n98pxbt",
+          name: "PERI PERI MAGGIE",
+          options: [
+            {
+              uid: "price_mksqt07fh15xr73pesm",
+              size: "VEG",
+              price: 80,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur88o29oeqy3ucu5w",
+              size: "PANEER",
+              price: 100,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur88uq72lbu3rynar",
+              size: "CHICKEN",
+              price: 120,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspg856mmw8rvgrohr",
+          description: "",
+          imageUrl:
+            "https://www.whiskaffair.com/wp-content/uploads/2021/05/Peri-Peri-Maggi-2-3-500x500.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqtns6ribl9swe6f8",
+          name: "CHEESY MAGGIE",
+          options: [
+            {
+              uid: "price_mksqtns9zt3zo2o9kl",
+              size: "VEG",
+              price: 100,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur9n1fy9ifztszgm",
+              size: "PANEER",
+              price: 120,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkur9n71j3dj2fytbbo",
+              size: "CHICKEN",
+              price: 140,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspg856mmw8rvgrohr",
+          description: "",
+          imageUrl:
+            "https://c.ndtvimg.com/2022-03/32nnv99g_maggi_625x300_11_March_22.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksquk5yff9sg1m5bg8",
+          name: "STEAM ",
+          options: [
+            {
+              uid: "price_mksquk67jt9vy3xx7z",
+              size: "VEG (4 pcs)",
+              price: 45,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurg0jc3fukcvq7jcg",
+              size: "VEG (8 pcs)",
+              price: 80,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurgd8osn3knv93ptk",
+              size: "PANEER (4 pcs)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurgdntiugnv3595eq",
+              size: "PANEER (8 pcs)",
+              price: 115,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurgfcpycownyh143",
+              size: "CHICKEN (4 pcs)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurgfomwa8u0nkdd2l",
+              size: "CHICKEN (8 pcs)",
+              price: 125,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl:
+            "https://www.spicypunch.com/wp-content/uploads/2021/05/chicken-momos-recipe-1-768x512.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqyl9ao0a1qx356og",
+          name: "PERI PERI ",
+          options: [
+            {
+              uid: "price_mksqyl9gp0aujku6ku",
+              size: "VEG (HALF)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuri5dupocb4dq3pl",
+              size: "VEG (FULL)",
+              price: 105,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuri5sjmjv2ufcex8",
+              size: "PANEER (HALF)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuri63mxad7vkn6mko",
+              size: "PANEER (FULL)",
+              price: 135,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuri6e2efk8dvxa6p",
+              size: "CHICKEN (HALF)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurj08im0admpoxiki",
+              size: "CHICKEN (FULL)",
+              price: 135,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl:
+            "https://www.zippyfeed.com/wp-content/uploads/2023/01/Peri-Chicken-Fried-Momo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksqzbj7yagifddme0n",
+          name: "CHILLI ",
+          options: [
+            {
+              uid: "price_mksqzbjcjjmmel47bf",
+              size: "VEG (4 pcs)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurn0jhqlsg04dzxm",
+              size: "VEG(8 pcs)",
+              price: 105,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurn31q1x4ae5qaszs",
+              size: "PANEER (4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurn3dp6hs0jqe0rgq",
+              size: "PANEER (8 pcs)",
+              price: 135,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurn5itkiiil9af53",
+              size: "CHICKEN (4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurn5vimad4l4q93cc",
+              size: "CHICKEN (8 pcs)",
+              price: 135,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl:
+            "https://www.yumcurry.com/wp-content/uploads/2021/05/chilli-garlic-momos-feature-image.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr08193raw7hjmk7b",
+          name: "AFGANI",
+          options: [
+            {
+              uid: "price_mksr081dpt577kspvp",
+              size: "VEG (4 pcs)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurkr4biv1ke9muthj",
+              size: "VEG (8 pcs)",
+              price: 105,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurkrktmk37i1tn9p8",
+              size: "PANEER (4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurkryherey4gvbje4",
+              size: "PANEER (8 pcs)",
+              price: 135,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurktmdxfdemjhpvkd",
+              size: "CHICKEN (4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurktz8wgvugztvib",
+              size: "CHICKEN (8 pcs))",
+              price: 135,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl:
+            "https://khaopiyo.au/wp-content/uploads/2023/12/Afghani-Momos-New.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr0upasjk37ftknk",
+          name: "KURKURE ",
+          options: [
+            {
+              uid: "price_mksr0upew7796abzy",
+              size: "VEG (4 pcs)",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurbts5xe6i9bmf8i",
+              size: "VEG (8 pcs)",
+              price: 105,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurbty572u3ibokw6m",
+              size: "PANEER (4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurda92yr2w83suwa",
+              size: "PANEER (8 pcs)",
+              price: 135,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkureeo0fjngsktcv37",
+              size: "CHICKEN (4 pcs)",
+              price: 85,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuref6grygi4pvzs9",
+              size: "CHICKEN (8 pcs)",
+              price: 145,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/BYe5YeWc_dk/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsahqwy3vfaha5t6g",
+          name: "CHICKEN  CHEESE MOMOS",
+          options: [
+            {
+              uid: "price_mljsahr1ga1veseuz",
+              size: "HALF( 4 pcs)",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljsb3op00e583c7kg49",
+              size: "FULL(8 pcs)",
+              price: 135,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspgms090ye98yrqbq",
+          description: "",
+          imageUrl:
+            "https://static.iwmbuzz.com/wp-content/uploads/2022/01/the-easiest-way-to-prepare-delicious-chicken-cheese-momo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr2oj6vwtgxi8jcfr",
+          name: "CHEESY  ",
+          options: [
+            {
+              uid: "price_mksr2ojdmjlwgccp8x9",
+              size: "VEG (4 pcs)",
+              price: 159,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurp6aow4kzi2m2oms",
+              size: "PANEER (4 pcs)",
+              price: 179,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurp6gvsgxpdkztrok",
+              size: "Chicken (4 pcs)",
+              price: 189,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksph6in0ee3k7v9fv7p",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/plate-with-delicious-homemade-garlic-bread-table-close-up_149301-4249.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr48m8b2r0f2srrm6",
+          name: "EXTRA LOADED CHEESY (4 PIECES)",
+          options: [
+            {
+              uid: "price_mksr48mc4ks8z1ackjx",
+              size: "VEG (4 pcs)",
+              price: 189,
+              salePrice: 189,
+            },
+            {
+              uid: "price_mkurq9c16m8j7atvqft",
+              size: "PANEER (4 pcs)",
+              price: 209,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurq9mwaz5p6gpd2j",
+              size: "CHICKEN (4 PCS)",
+              price: 219,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksph6in0ee3k7v9fv7p",
+          description: "",
+          imageUrl:
+            "https://momycooks.com/wp-content/webp-express/webp-images/uploads/2025/03/Cheesy-Garlic-Bread-Recipe.png.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr5afhjr79v5v6puj",
+          name: "TWISTER ",
+          options: [
+            {
+              uid: "price_mksr5afmzzle2x0i0gj",
+              size: "VEG",
+              price: 129,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurswuyoqt5au7z5bm",
+              size: "PANEER",
+              price: 139,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkursx61i5zpum5d2nr",
+              size: "CHICKEN",
+              price: 149,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/SyIJ4y8lgfo/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr5xg05umpjzghbyd",
+          name: "SPICY",
+          options: [
+            {
+              uid: "price_mksr5xg4fst0oug67w7",
+              size: "VEG",
+              price: 139,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurubtf6tiq9emlk0p",
+              size: "PANEER",
+              price: 149,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuruc5hi6z20d4jqe",
+              size: "CHICKEN",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl:
+            "https://aflavorjournal.com/wp-content/uploads/2023/04/Spicy-Chicken-Wrap-Recipe-24-scaled.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr6tvjj47illtou5b",
+          name: "BBQ",
+          options: [
+            {
+              uid: "price_mksr6tvobfa1uarqw",
+              size: "VEG",
+              price: 139,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurvmxfjfn14r7vv7p",
+              size: "PANEER",
+              price: 149,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurvn2hl9sbnt6qk1b",
+              size: "CHICKEN",
+              price: 209,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl:
+            "https://savorandspoon.com/wp-content/uploads/2025/02/BBQ-Chicken-Wraps-12-683x1024.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr7ewq4cniwgwngro",
+          name: "PERI PERI",
+          options: [
+            {
+              uid: "price_mksr7ewugtyzys52ged",
+              size: "VEG",
+              price: 139,
+              salePrice: 139,
+            },
+            {
+              uid: "price_mkurx5d9cq9lrxl19db",
+              size: "PANEER",
+              price: 149,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurx5ms5jo2x2sk09d",
+              size: "CHICKEN",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl:
+            "https://mns.sidechef.com/recipe/5f212bbf-0fb4-4c46-b44c-dac995cac466.jpg?d=1200x800",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkurye2zkyjqf9pql7c",
+          name: "CHEESY ",
+          options: [
+            {
+              uid: "price_mkurye3468lo9hg4ny8",
+              size: "VEG",
+              price: 149,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurylxxf2uff97koww",
+              size: "PANEER",
+              price: 159,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkurym3onuhc1r3mcbm",
+              size: "CHICKEN",
+              price: 169,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl:
+            "https://savorandspoon.com/wp-content/uploads/2025/02/BBQ-Chicken-Wraps-12-683x1024.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsh2s0x3mcqv392c",
+          name: "TANDOORI WRAPS",
+          options: [
+            {
+              uid: "price_mljsh2s4sisw7ka06",
+              size: "VEG",
+              price: 169,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljshragq4hybf309vb",
+              size: "PANEER",
+              price: 149,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljsht96f5d9p8j6zy8",
+              size: "CHICKEN",
+              price: 169,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksphn24kun3yzf6f",
+          description: "",
+          imageUrl:
+            "https://recipes.timesofindia.com/photo/62194857.cms?imgsize=484045",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr8jetqvztwmkp9f8",
+          name: "ALOO TIKKI ",
+          options: [
+            {
+              uid: "price_mksr8jezcsdfmsypg5",
+              size: "",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://c.ndtvimg.com/2023-06/nl2hone_grilled-sandwich-3_625x300_08_June_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr99i2al048qspwo6",
+          name: "VEG",
+          options: [
+            {
+              uid: "price_mksr99i606wz2mi2qfmr",
+              size: "",
+              price: 129,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://static.vecteezy.com/system/resources/previews/002/266/985/large_2x/club-sandwich-with-french-fries-free-photo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksr9xfv8nxyp2hxx4d",
+          name: "CORN & CHEESE",
+          options: [
+            {
+              uid: "price_mksr9xg0mmdn246jm9",
+              size: "",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/6f/21/d6/6f21d6c9d7cb390302124553736b7cdb.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkus3r1f65p1asp8mt5",
+          name: "PANEER ",
+          options: [
+            {
+              uid: "price_mkus3r1jmz4dyqcirxn",
+              size: "",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://freshfusioncafe.com/wp-content/uploads/2024/10/Paneer-Sandwich-Fresh-Fusion.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkus44b3djn6gsq34fk",
+          name: "VEG CHEESE",
+          options: [
+            {
+              uid: "price_mkus44b7uul8lpgwyz",
+              size: "",
+              price: 149,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/hbccsqn9KVc/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkus4qs5ai9520v7srw",
+          name: "PANEER CHEESY ",
+          options: [
+            {
+              uid: "price_mkus4qs8eam4z1mnefn",
+              size: "",
+              price: 179,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://www.espressodrive.in/wp-content/uploads/2022/11/Tandoori-Paneer-Sandwich-n.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkusl1tlqrnrhi112c",
+          name: "CHICKEN HAM ",
+          options: [
+            {
+              uid: "price_mkusl1tqfmkxwwmidxp",
+              size: "",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/8Mjnz7AuqBg/hqdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuslm8bzgd57b2uew",
+          name: "CHICKEN SEEKH KEBAB ",
+          options: [
+            {
+              uid: "price_mkuslm8g1vgqhk15j1w",
+              size: "",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/2_ZTyThxEJk/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkusmb6pz7rdcxcaj5l",
+          name: "CHICKEN ",
+          options: [
+            {
+              uid: "price_mkusmb6u674v99lcr7r",
+              size: "",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://img-global.cpcdn.com/recipes/33fa867c0a6a8dc1/1200x630cq70/photo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrckcyusiywtohjqxj",
+          name: "Bombay Masala Sandwich",
+          options: [
+            {
+              uid: "price_mmrckcyzmbu4lxodm3",
+              size: "",
+              price: 179,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/60/39/c2/6039c2d29b613b5b9b19b01727c583ec.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrcn0te54pmm6y7z9b",
+          name: "Chicken Sausage Sandwich",
+          options: [
+            {
+              uid: "price_mmrcn0tjhzu9g1t18wo",
+              size: "",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspi3pjohhovu6lasq",
+          description: "",
+          imageUrl:
+            "https://www.alfrescoallnatural.com/wp-content/uploads/2025/04/TWB_1884-Edit-scaled.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrap5mrs93qbpq6a",
+          name: "MIX VEG ",
+          options: [
+            {
+              uid: "price_mksrap5pk03w4l3l88",
+              size: "",
+              price: 209,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://foods.qmanja.com/MenuImages/Menu5114-Mix-veg-pizza.jpg.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrb702nuyojoc4sjo",
+          name: "CORN & CHEESE",
+          options: [
+            {
+              uid: "price_mksrb708yxdjgd8d5js",
+              size: "",
+              price: 229,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/b2mgLHEGFWg/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuq4g53aefegb00rgg",
+          name: "PANEER CHEESE PIZZA ",
+          options: [
+            {
+              uid: "price_mkuq4g58ic6bs2aptsi",
+              size: "",
+              price: 229,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://www.crazycheesy.com/wp-content/uploads/2022/11/TRIO-PANEER-OVERLOAD-PIZZA.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuq74xybhuglfdoh27",
+          name: "TANDOORI PANEER ",
+          options: [
+            {
+              uid: "price_mkuq74y30bcl1d937cyl",
+              size: "",
+              price: 239,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/paneer-pizza_13329-654.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljslgaswvyoymdr2ul",
+          name: "MARGARETA  (CHEESE)",
+          options: [
+            {
+              uid: "price_mljslgawhxe0qn1pu",
+              size: "REGULAR",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://rakijagrill.com/wp-content/uploads/2020/07/Margherita-.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsn1oeul3svyf9uig",
+          name: "CHICKEN SALAMI PIZZA",
+          options: [
+            {
+              uid: "price_mljsn1oh5h6pp1incrk",
+              size: "REGULAR",
+              price: 279,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/BTMY3DxZwfY/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsoj402uh65hhwm7q",
+          name: "CHICKEN SAUSAGE PIZZA",
+          options: [
+            {
+              uid: "price_mljsoj44xgh8o078k3i",
+              size: "REGULAR",
+              price: 289,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://thealmondeater.com/wp-content/uploads/2025/04/chicken-sausage-pizza_web-1-683x1024.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljspoyx7rqy5201hzf",
+          name: "CHICKEN SEEKH KEBAB PIZZA",
+          options: [
+            {
+              uid: "price_mljspoz3rir668rqudn",
+              size: "REGULAR",
+              price: 279,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://img-global.cpcdn.com/recipes/29eca7bfd066cefb/680x482cq70/spicy-chicken-seekh-kabab-pizza-authentic-recipe-recipe-main-photo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsqsyy2wnao17uvht",
+          name: "CAFÉ's NON VEG SPECIAL PIZZA",
+          options: [
+            {
+              uid: "price_mljsqsz3qw9jiefpn2",
+              size: "REGULAR",
+              price: 309,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://www.crazymasalafood.com/wp-content/images/chicken-pizza.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljss2zu3ko0mpqmck4",
+          name: "CAFÉ's VEG SPECIAL PIZZA",
+          options: [
+            {
+              uid: "price_mljss302krfzmpibegf",
+              size: "REGULAR",
+              price: 249,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspiyyxccws9fcispb",
+          description: "",
+          imageUrl:
+            "https://lepalaiscafe.com/wp-content/uploads/2024/02/Vegetable-Pizza.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksresuokw5bqdh9nu",
+          name: "VEG CHOWMIN",
+          options: [
+            {
+              uid: "price_mksresurt5g9rrcyg0c",
+              size: "HALF",
+              price: 60,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqdxsnpydp42495h",
+              size: "FULL",
+              price: 120,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://gunjanchopra.com/content/images/2022/03/Feature-Image.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrf8fm6x0zycc3iz7",
+          name: "EGG CHOWMIN",
+          options: [
+            {
+              uid: "price_mksrf8fqycd4xqdlj9l",
+              size: "HALF",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqf6rmwt70rqy4wc",
+              size: "FULL",
+              price: 125,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/XYmeKMRahuU/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuqfxwb0w9zmv4g3wrj",
+          name: "CHICKEN CHOWMIN",
+          options: [
+            {
+              uid: "price_mkuqfxwi5ldq2zqcw0q",
+              size: "HALF",
+              price: 90,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqhxrotfnzwe79e4",
+              size: "FULL",
+              price: 160,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://img-global.cpcdn.com/recipes/61a3068623e7eb8f/1360x964cq70/egg-chicken-chowmein.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuqigssfyd7dk7th6",
+          name: "EGG CHICKEN CHOWMIN",
+          options: [
+            {
+              uid: "price_mkuqigsw2zampw8x18",
+              size: "HALF",
+              price: 105,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqizly6sc3qx9y47x",
+              size: "FULL",
+              price: 190,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://4.bp.blogspot.com/-WVcv2LJS8XI/U1JOIiYoAUI/AAAAAAAACVs/HYJ1SZy9IJE/s1600/egg+chowmein+012.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuql1l5ex7sz5vjz1p",
+          name: "VEG FRIED RICE",
+          options: [
+            {
+              uid: "price_mkuql1la5cwf6gow062",
+              size: "HALF",
+              price: 65,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqld8gow0fcyd3uzo",
+              size: "FULL",
+              price: 100,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://www.scrumptiously.com/wp-content/uploads/2023/02/VegetableFriedRice.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuqmla4aysq7ijr1io",
+          name: "EGG FRIED RICE",
+          options: [
+            {
+              uid: "price_mkuqmlaaxgaebxv8rc",
+              size: "HALF",
+              price: 75,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkuqn82snl505pfn38b",
+              size: "FULL",
+              price: 125,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://recipemaestro.com/wp-content/uploads/2025/07/Egg-Fried-Rice-1.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkut112rc65914pjvu9",
+          name: "PANEER CHILLI",
+          options: [
+            {
+              uid: "price_mkut112w740yb39j12s",
+              size: "HALF",
+              price: 150,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkut1z02mzf0jsi4jmd",
+              size: "FULL",
+              price: 240,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/bd/d2/cf/bdd2cf973419568da097ed78072c43d2.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkut2nm29nkdd1m6pyh",
+          name: "CHICKEN CHILLI",
+          options: [
+            {
+              uid: "price_mkut2nm5tr5glzf1ky",
+              size: "HALF",
+              price: 150,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkut36v75b3r5hdlu1g",
+              size: "FULL",
+              price: 240,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/pMCS1TR4Wyo/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkut3ta3vm2lbgisrf",
+          name: "POTATO CHILLI",
+          options: [
+            {
+              uid: "price_mkut3taac8jb9xs8eva",
+              size: "HALF",
+              price: 110,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkut4912zl5sgzyycw",
+              size: "FULL",
+              price: 190,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/29t-OJHSU8Y/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkut4obmoyshhzrzq3",
+          name: "BBQ WINGS",
+          options: [
+            {
+              uid: "price_mkut4obpp3fw2mk30t",
+              size: "HALF",
+              price: 189,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkut58fhqry4rdleb9a",
+              size: "FULL",
+              price: 310,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://www.hotwingscafe.net/wp-content/uploads/2015/01/HWC-74.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkut5qzlj1di362ypy",
+          name: "KOREAN WINGS",
+          options: [
+            {
+              uid: "price_mkut5qzoi0z2foqzun",
+              size: "HALF",
+              price: 189,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkut61ewer4lqa5i1fi",
+              size: "FULL",
+              price: 310,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/ec/8a/ee/ec8aee3d078af75d59d2065bb774903b.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljswurcxt3ofsj6h3i",
+          name: "KOREAN GOCHUIANG WINGS (4/8 pcs) ",
+          options: [
+            {
+              uid: "price_mljswurh9jzjbtwv9mo",
+              size: "HALF",
+              price: 189,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljsxcgdw1tznp7rzis",
+              size: "FULL",
+              price: 310,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://www.lordbyronskitchen.com/wp-content/uploads/2022/05/Spicy-Korean-Gochujang-Chicken-Wings-f.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljszgvpciz00shhs1p",
+          name: "CHICKEN FRIED RICE",
+          options: [
+            {
+              uid: "price_mljszgvvdapv91wec07",
+              size: "HALF",
+              price: 100,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljszzgegqew4tge9xh",
+              size: "FULL",
+              price: 190,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://christieathome.com/wp-content/uploads/2022/04/Chinese-Chicken-Fried-Rice-5.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt1kd9xekcgzhmoz",
+          name: "EGG CHICKEN FRIED RICE",
+          options: [
+            {
+              uid: "price_mljt1kdgkh6tzt6hcws",
+              size: "HALF",
+              price: 120,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljt1yv3fm0bcd3kuqn",
+              size: "FULL",
+              price: 210,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://www.thesouthafrican.com/wp-content/uploads/2020/06/b2c6bacf-chicken-fried-rice-recipe-1200x858.jpeg.optimal.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt2s6y2i2pbx5xk5l",
+          name: "VEG MANCHURIAN GRAVY",
+          options: [
+            {
+              uid: "price_mljt2s73fc14u4lg7q4",
+              size: "HALF",
+              price: 80,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljt2yep88ya52rw2i8",
+              size: "FULL",
+              price: 130,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://kannanskitchen.com/wp-content/uploads/2021/05/IMG_20200927_142549_Bokeh-1024x712.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt5xsfzp8hxc2m16l",
+          name: "PANEER MANCHURIAN GRAVY",
+          options: [
+            {
+              uid: "price_mljt5xsl0w0wmj36c1i",
+              size: "HALF",
+              price: 110,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljt69e2ziwuty5ji4",
+              size: "FULL",
+              price: 190,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://www.blog.123coimbatore.com/uploads/blog-images/05-03-2021_03-40-37_paneer.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkl2o4348vxiel6i2a",
+          name: "SOYA CHILLI",
+          options: [
+            {
+              uid: "price_mlkl2o4f3djdyqzhcmv",
+              size: "REGULAR",
+              price: 70,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspo1o7uu4qof3jaw",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/fa/39/0d/fa390db69479bcddfe4ca6e82254b5bc.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbd6umj7ues39zht",
+          name: "Chicken Samosa ",
+          options: [
+            {
+              uid: "price_mmrbd6usjqff1dhn1to",
+              size: "(5 Pieces)",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://www.mozismenu.com/wp-content/uploads/2017/04/Chicken-Keema-Samosa-0.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkl4h0upfuzh4dj1jj",
+          name: "TANDOORI CHICKEN",
+          options: [
+            {
+              uid: "price_mlkl4h10ac67112wrlw",
+              size: "HALF",
+              price: 160,
+              salePrice: null,
+            },
+            {
+              uid: "price_mlkl5pcogyz8zahosvs",
+              size: "FULL",
+              price: 280,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-threeByTwoMediumAt2X.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkl6kakpsmh9frc5s",
+          name: "LEG KEBAB",
+          options: [
+            {
+              uid: "price_mlkl6kasg9maalww3eo",
+              size: "REGULAR ",
+              price: 80,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/2QRlzd2hFjY/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkl95977zgrgg6d0dt",
+          name: "CHICKEN CHILLI BONE",
+          options: [
+            {
+              uid: "price_mlkl959cet74xp7k8s6",
+              size: "REGULAR",
+              price: 130,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/pMCS1TR4Wyo/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkladcu9319l9204yk",
+          name: "CHICKEN CHILLI BONELESS",
+          options: [
+            {
+              uid: "price_mlkladczmdhc277em2r",
+              size: "REGULAR",
+              price: 160,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://www.wikihow.com/images/c/cb/Prepare-Chilli-Chicken-Step-17.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlklbupvsobop0ktuu",
+          name: "CHICKEN BUTTER MASALA ",
+          options: [
+            {
+              uid: "price_mlklbuq0camgzs88y2j",
+              size: "HALF",
+              price: 140,
+              salePrice: null,
+            },
+            {
+              uid: "price_mlkld91e9ztv67qx3jh",
+              size: "FULL",
+              price: 260,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "FULL 4 pcs, HALF 2 pcs",
+          imageUrl:
+            "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/chicken-butter-masala-recipe.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlklgriiwgt5swv55l",
+          name: "CHICKEN TIKKA BUTTER MASALA ",
+          options: [
+            {
+              uid: "price_mlklgrincf3ludad05t",
+              size: "HALF",
+              price: 160,
+              salePrice: null,
+            },
+            {
+              uid: "price_mlklhtkjxz5yjpu6ceo",
+              size: "FULL",
+              price: 300,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "HALF (4 pcs) and FULL (8 pcs)",
+          imageUrl:
+            "https://www.jaffnalove.com/925-thickbox_default/butter-chicken-masala.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbiezy5oddb7edevi",
+          name: "Chicken Spring Roll ",
+          options: [
+            {
+              uid: "price_mmrbif0428ou6ta967b",
+              size: "4 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://images-gmi-pmc.edge-generalmills.com/79c6ac0a-67cc-4556-8d4c-3019280b52bc.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbk2uwtkcws5i00hk",
+          name: "Crunchy Fried Chicken ",
+          options: [
+            {
+              uid: "price_mmrbk2v2qjfrzxqwa7",
+              size: "2 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/crunchy-fried-chicken-tenders-charming-cafe-setting_1252915-6628.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbn60uq8q84v2vt6",
+          name: "Chicken Popcorn ",
+          options: [
+            {
+              uid: "price_mmrbn6103hgw7t8ecew",
+              size: "12 pcs",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://www.recipetineats.com/tachyon/2025/01/Popcorn-chicken_2-close-up.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbpw8qwzp5crw7nqp",
+          name: "Chicken Spicy Wings ",
+          options: [
+            {
+              uid: "price_mmrbpw8troxbfsqjw6",
+              size: "4 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://recipeflow.com/wp-content/uploads/2015/04/spicy-chicken-wings-recipe-with.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbwg7va7496am758s",
+          name: "Chicken Breast Strips ",
+          options: [
+            {
+              uid: "price_mmrbwg81b2qwgxs7szg",
+              size: "5 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbxz7ne967u2opga9",
+          name: "Chicken Fries",
+          options: [
+            {
+              uid: "price_mmrbxz7ragwtgy3w8kf",
+              size: "",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://www.tastingtable.com/img/gallery/burger-king-debuts-spicy-chicken-fries-on-its-spring-menu/l-intro-1677606238.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrc1afwgm7b89av85i",
+          name: "Chicken Garlic Fingers ",
+          options: [
+            {
+              uid: "price_mmrc1afzo8pptkr6evh",
+              size: "5 pcs",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://paleogrubs.com/wp-content/uploads/2020/06/honey-garlic-chicken-fingers-9.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrc341nl6ndgcmzs6h",
+          name: "Chicken Nuggets ",
+          options: [
+            {
+              uid: "price_mmrc341rznm2vem689r",
+              size: "8 pcs",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://as2.ftcdn.net/v2/jpg/00/85/64/61/1000_F_85646100_AhagbxIwy910vGyh8JIxGWfV01W3TBmU.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrc4ld97mo5oziomrl",
+          name: "Extra Loaded Chicken Cheesy Garlic Bread ",
+          options: [
+            {
+              uid: "price_mmrc4lddvb3il11ikbc",
+              size: "5 pcs",
+              price: 219,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://myhomemaderecipe.com/assets/images/1737171303937-7zb7jdem.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrc7e4up7pi8sjvgg",
+          name: "Chicken Cheese Garlic Bread ",
+          options: [
+            {
+              uid: "price_mmrc7e4xse8hlewfouj",
+              size: "5 pcs",
+              price: 189,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl1y8mhmr31fv9mtp",
+          description: "",
+          imageUrl:
+            "https://quickierecipe.com/assets/images/1736431011287-nfqa1qrb.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrghw7e9zx3c018k8",
+          name: "ALOO PARATHA",
+          options: [
+            {
+              uid: "price_mksrghwdcfpfm4wkb07",
+              size: "2 pcs",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspp5l8gn8cbzbbukh",
+          description: "",
+          imageUrl:
+            "https://images.hindustantimes.com/img/2023/01/25/1600x900/aloo_paratha_1645109648403_1674659245063_1674659245063.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuprayr2hqymnv6bi2",
+          name: "METHI PARATHA",
+          options: [
+            {
+              uid: "price_mkuprayxjjmuknnpsor",
+              size: "2 pcs",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspp5l8gn8cbzbbukh",
+          description: "",
+          imageUrl:
+            "https://www.subbuskitchen.com/wp-content/uploads/2014/07/Methi-Paratha_Final2-686x1024.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkupt9gu9o3647oz5r4",
+          name: "MATAR PARATHA",
+          options: [
+            {
+              uid: "price_mkupt9gx1wtpcx63k2d",
+              size: "2 pcs",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspp5l8gn8cbzbbukh",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/green-peas-paratha-flatbread-matar-parathas-with-curd-hot-tea_466689-76598.jpg?w=2000",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkupwowx5i3x4mzjuxi",
+          name: "GOBI PARATHA",
+          options: [
+            {
+              uid: "price_mkupwox1evsyf1r800f",
+              size: "2 pcs",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspp5l8gn8cbzbbukh",
+          description: "",
+          imageUrl:
+            "https://www.subbuskitchen.com/wp-content/uploads/2017/04/Gobi-Paratha_final2.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrabyw3fme4tje1qdi",
+          name: "MALABAR PARATHA",
+          options: [
+            {
+              uid: "price_mmrabyw7uifpg207wm",
+              size: "2 pcs",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspp5l8gn8cbzbbukh",
+          description: "",
+          imageUrl:
+            "https://hungryforever.net/wp-content/uploads/2017/02/malabar-paratha-recipe.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrh5gorzbgckozial",
+          name: "MINT BLAST ",
+          options: [
+            {
+              uid: "price_mksrh5grbp7n0g3jm65",
+              size: "",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspqhl9zpjk6xcxpts",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/lime-lemon-mint-blast-unleashing-refreshment-with-generative-ai-cocktails_1000124-46656.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkupdknx9pj9tc23ifv",
+          name: "GREEN GRANNY MOJITO",
+          options: [
+            {
+              uid: "price_mkupdko3gwh5t1vqwg",
+              size: "",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspqhl9zpjk6xcxpts",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/f6/94/c5/f694c5b906b65572f0acd7d84094eb20.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuph7mlkt144w6n89e",
+          name: "SUMMER DELIGHT",
+          options: [
+            {
+              uid: "price_mkuph7mqq55pnai4acd",
+              size: "",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspqhl9zpjk6xcxpts",
+          description: "",
+          imageUrl:
+            "https://thumbs.dreamstime.com/b/refreshing-aperol-spritz-cocktail-sunny-beach-capturing-concept-aperitif-sea-refreshing-aperol-spritz-307085368.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkupi6267qh70xp8ulp",
+          name: "BLUE MARGARITA ",
+          options: [
+            {
+              uid: "price_mkupi629rsjwmk3l67c",
+              size: "",
+              price: 95,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspqhl9zpjk6xcxpts",
+          description: "",
+          imageUrl:
+            "https://www.thecookierookie.com/wp-content/uploads/2019/06/blue-margarita-recipe-3-of-10.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrhxmi949hq1kznis",
+          name: "STRAWBERRY ",
+          options: [
+            {
+              uid: "price_mksrhxml4drxdp20m2i",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://img.freepik.com/premium-photo/strawberry-shake-frosted-glass-with-straw_124507-292205.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrieigd1kihbawg87",
+          name: "MANGO",
+          options: [
+            {
+              uid: "price_mksrieijkp0au4z794h",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://www.kawalingpinoy.com/wp-content/uploads/2015/04/mango-shake-3.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuoyc2k7myavivtkpr",
+          name: "BUTTERSCOTCH ",
+          options: [
+            {
+              uid: "price_mkuoyc2n7mctjmmxrom",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://www.nourishnutritionblog.com/wp-content/uploads/2022/04/Butterscotch-shake-with-caramel-768x1152.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuozguoqrov26khlqq",
+          name: "PINEAPPLE ",
+          options: [
+            {
+              uid: "price_mkuozgurscmhal16gdq",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/pineapple-milkshake.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup0v1rna1872md4wc",
+          name: "ORANGE ",
+          options: [
+            {
+              uid: "price_mkup0v1uu6gj3yvbce",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://cdn1.foodviva.com/static-content/food-images/milkshake-recipes/orange-shake-recipe/orange-shake-recipe.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup1f3hvgdzro43obs",
+          name: "LITCHI",
+          options: [
+            {
+              uid: "price_mkup1f3lunl4hup8x8m",
+              size: "",
+              price: 110,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/FBvYLXiDCtg/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup1r3aapzzmcnvlqs",
+          name: "BLUEBERRY ",
+          options: [
+            {
+              uid: "price_mkup1r3dfei4jjituha",
+              size: "",
+              price: 130,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://www.nogettingoffthistrain.com/wp-content/uploads/2023/06/Blueberry-protein-shake-7-scaled.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup2mimxwc7sx2astg",
+          name: "BLACKCURRENT",
+          options: [
+            {
+              uid: "price_mkup2miq4qs2b5d39sb",
+              size: "",
+              price: 130,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://www.mrcoconut.in/img/products/25_10_2021_10_41_978_am.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup39l1c3e18iq55lt",
+          name: "KIWI",
+          options: [
+            {
+              uid: "price_mkup39l5ri0smvaw03",
+              size: "",
+              price: 130,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/kiwi-milchshake-160911.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup3nsimnddx8ehld",
+          name: "OREO",
+          options: [
+            {
+              uid: "price_mkup3nsokba2efkxk9",
+              size: "",
+              price: 140,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://static.india.com/wp-content/uploads/2024/07/oreo-shake.jpg##image/jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkup477fhdt9rlafuyt",
+          name: "KITKAT",
+          options: [
+            {
+              uid: "price_mkup477ju3y03d2n46j",
+              size: "",
+              price: 140,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksps0kw7i0eloi7t6y",
+          description: "",
+          imageUrl:
+            "https://foodtippr.com/wp-content/uploads/2017/08/Kitkat_Shake-4.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrj1hl4o6ym68dkrq",
+          name: "AFGANI  CHAAP",
+          options: [
+            {
+              uid: "price_mksrj1hojo9rmd1uz1",
+              size: "",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl:
+            "https://images.marico.in/800x0/uploads/afgani-chaap-1-3543.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuoftta85js58rtria",
+          name: "MALAI CHAAP",
+          options: [
+            {
+              uid: "price_mkuofttf2acjrwfwwj5",
+              size: "",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl:
+            "https://theyellowbowl.in/wp-content/uploads/2023/02/Afghani-Chaap-2.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuog8zsm0i35sxq0fl",
+          name: "TANDOORI CHAAP",
+          options: [
+            {
+              uid: "price_mkuog8zy4c9e7flaup",
+              size: "",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl:
+            "https://img-global.cpcdn.com/recipes/de247dc0c86aed26/1200x630cq70/photo.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuoguz5x2atg7owolr",
+          name: "PUNJABI SPICY CHAAP",
+          options: [
+            {
+              uid: "price_mkuoguzadhjbm9yhsq7",
+              size: "",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl:
+            "https://www.funfoodfrolic.com/wp-content/uploads/2022/08/Soya-Chaap-Blog-500x500.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuohfie9yeai4bgcxa",
+          name: "CHATPATA CHAAP",
+          options: [
+            {
+              uid: "price_mkuohfihbdyy9xyob0r",
+              size: "",
+              price: 180,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/uzWXpNcCq30/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuohtq9vyobu89i46",
+          name: "SOYA CHAAP BUTTER MASALA ",
+          options: [
+            {
+              uid: "price_mkuohtqfjxyhc2uj8ep",
+              size: "",
+              price: 230,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl:
+            "https://indianthali.ca/wp-content/uploads/2021/06/Butter-Soya-Chaap.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljsu0c86splp5ew7no",
+          name: "TAWA CHAAP GRAVY  ",
+          options: [
+            {
+              uid: "price_mljsu0cd8xtb3s56dbu",
+              size: "REGULAR",
+              price: 230,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mksptcmkkbbp21s586",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/G23fldodCwk/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrjn3nmywtsorzt8a",
+          name: "TEA",
+          options: [
+            {
+              uid: "price_mksrjn3qq79q68lpzug",
+              size: "",
+              price: 20,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspu3uwqovw516zgim",
+          description: "",
+          imageUrl:
+            "https://www.saga.co.uk/helix-contentlibrary/exceptional/2023/02/aerial-shot-of-a-cup-of-tea.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mksrk2b9xaa5qawl3cm",
+          name: "COFFEE ",
+          options: [
+            {
+              uid: "price_mksrk2bcn6nhcpeozzh",
+              size: "",
+              price: 40,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspu3uwqovw516zgim",
+          description: "",
+          imageUrl:
+            "https://brookrest.com/wp-content/uploads/2020/05/AdobeStock_315919556-scaled.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuoieq78txsw1l9voi",
+          name: "TAWA CHAAP GRAVY",
+          options: [
+            {
+              uid: "price_mkuoieqdj2s27xuv2m",
+              size: "",
+              price: 230,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl: "",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuowbvuje6g6sgy53",
+          name: "BUTTERSCOTCH ",
+          options: [
+            {
+              uid: "price_mkuowbvzkgft4wc9088",
+              size: "",
+              price: null,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://www.nourishnutritionblog.com/wp-content/uploads/2022/04/Butterscotch-shake-with-caramel-768x1152.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkupgxv13kk2owlw5tk",
+          name: "SUMMER DELIGHT",
+          options: [
+            {
+              uid: "price_mkupgxv6ho50c1hb5qf",
+              size: "",
+              price: null,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl: "",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuphvvepgsy0ffqapa",
+          name: "BLUE MARGARITA",
+          options: [
+            {
+              uid: "price_mkuphvvh3ht8ljfjyei",
+              size: "",
+              price: null,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl: "",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkuq8q0700wzl0b4zvmhc",
+          name: "MARGARITA CHEESE",
+          options: [
+            {
+              uid: "price_mkuq8q0bfudc7p9fppc",
+              size: "",
+              price: 199,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://thumbs.dreamstime.com/b/pizza-margarita-cheese-pizza-margarita-cheese-tomatoes-122795906.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt4f8jksohp6055z",
+          name: "PANEER MANCHURIAN GRAVY",
+          options: [
+            {
+              uid: "price_mljt4f8p9i1dlzvpe1",
+              size: "HALF",
+              price: 110,
+              salePrice: null,
+            },
+            {
+              uid: "price_mljt521r0emceory45vi",
+              size: "FULL",
+              price: 190,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://www.blog.123coimbatore.com/uploads/blog-images/05-03-2021_03-40-37_paneer.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt7wfb22umw6jb3ep",
+          name: "CHICKEN NUGGETS (8pcs)",
+          options: [
+            {
+              uid: "price_mljt7wfeopfokadoqj9",
+              size: "",
+              price: null,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl: "",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljttlqd3en1a1af2do",
+          name: "CHEESY FRIES",
+          options: [
+            {
+              uid: "price_mljttlqhs5n75ckbbi",
+              size: "REGULAR",
+              price: 129,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://fitfoodfunwithann.com/wp-content/uploads/2025/02/Image_3-126.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtvyso7domm5kfq6i",
+          name: "CHEESY FRIES",
+          options: [
+            {
+              uid: "price_mljtvysut5qoxw3i9dd",
+              size: "REGULAR",
+              price: 129,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://admin.qualityfoods.com.bd/storage/category/2023-08-08-64d1b8e7441b2.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlkleamm8cabxvyjab",
+          name: "CHICKEN TIKKA BUTTER MASALA ",
+          options: [
+            {
+              uid: "price_mlkleamp9ttd57ik1fm",
+              size: "FULL( 8 pcs)",
+              price: 300,
+              salePrice: null,
+            },
+            {
+              uid: "price_mlklf6zbmj6cqg2l3s",
+              size: "HALF( 4 pcs)",
+              price: 160,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://www.jaffnalove.com/925-thickbox_default/butter-chicken-masala.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbsth14bg28ptizzt",
+          name: "Chicken Breast Strips ",
+          options: [
+            {
+              uid: "price_mmrbsth5vgwlgcevbxq",
+              size: "5 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrbvexabl4ahi5fkef",
+          name: "Chicken Breast Strips ",
+          options: [
+            {
+              uid: "price_mmrbvexe96crezzfg5i",
+              size: "5 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl:
+            "https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrf8klldc2otqribls",
+          name: "",
+          options: [
+            {
+              uid: "price_mmrf8klpkazgxt32h7g",
+              size: "",
+              price: null,
+              salePrice: null,
+            },
+          ],
+          categoryId: "",
+          description: "",
+          imageUrl: "",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mkutthd4ije89hl616c",
+          name: "Chicken Egg Biryani",
+          options: [
+            {
+              uid: "price_mkutthd9c4i9qngq8s",
+              size: "Half",
+              price: 130,
+              salePrice: null,
+            },
+            {
+              uid: "price_mkutu40yahfrsanu3le",
+              size: "Full",
+              price: 220,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkutqlqd1wdi3mlakwt",
+          description: "",
+          imageUrl:
+            "https://matancafe.com/wp-content/uploads/2023/09/Biryani-rice.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt81xfes5mbru1oz4",
+          name: "CHICKEN NUGGETS (8pcs)",
+          options: [
+            {
+              uid: "price_mljt81xl2u7dslt381y",
+              size: "REGULAR",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://royalburgerking.com/wp-content/uploads/2023/11/chicken-nuggets-1.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt8jk7lcrt0w0miw",
+          name: "CHICKEN GARLIC FINGERS (5pcs)",
+          options: [
+            {
+              uid: "price_mljt8jkc776erc10suj",
+              size: "REGULAR",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://paleogrubs.com/wp-content/uploads/2020/06/honey-garlic-chicken-fingers-9.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt90yaodki8e8ae7l",
+          name: "CHICKEN FRIES",
+          options: [
+            {
+              uid: "price_mljt90yg6kh9vhd2qug",
+              size: "REGULAR",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://www.airfryeryum.com/wp-content/uploads/2023/05/IMG_6922.jpeg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt9dm4h9rp20098n",
+          name: "CHICKEN POPCORN (12pcs)",
+          options: [
+            {
+              uid: "price_mljt9dmbo0iyphpt20k",
+              size: "REGULAR",
+              price: 139,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://5.imimg.com/data5/SELLER/Default/2023/2/QB/JC/ZQ/4609069/frozen-ready-to-eat-chicken-popcorn-1000x1000.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljt9rbj5f6x3w7vxue",
+          name: "CHICKEN BREAST STRIPS(5pcs)",
+          options: [
+            {
+              uid: "price_mljt9rbn5cv7w8gcbwh",
+              size: "REGULAR",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://justbarechicken.com/wp-content/uploads/2025/07/61559_Strips-1.5_GS1-Ads_Lifestyle.jpg.webp",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljta80a3l2vdzg766g",
+          name: "CHICKEN SPICY WINGS (4pcs)",
+          options: [
+            {
+              uid: "price_mljta80d8ltlqa49dop",
+              size: "REGULAR",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://www.eatwellfood.com.np/wp-content/uploads/2025/03/Spicy-Chicken-Wings-4-pcs.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtaqxx65pwnbj3sme",
+          name: "CRUNCHY FRIED CHICKEN  ",
+          options: [
+            {
+              uid: "price_mljtaqy0alwymxgdt8m",
+              size: "2 pcs",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://recipes.net/wp-content/uploads/2020/04/classic-crunchy-fried-chicken-recipe.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtb8rl63yopkr9lfi",
+          name: "CHICKEN SPRING ROLL (4pcs)",
+          options: [
+            {
+              uid: "price_mljtb8rq2kdfqg9e3k3",
+              size: "REGULAR",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://www.inspiredtaste.net/wp-content/uploads/2025/03/Chicken-Spring-Rolls-Recipe-1.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtbojzxmdjocldh98",
+          name: "CHICKEN SAMOSA (5pcs)",
+          options: [
+            {
+              uid: "price_mljtbok4txqnzgpubtt",
+              size: "REGULAR",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspmmfc83myrc27tn2",
+          description: "",
+          imageUrl:
+            "https://cdn.beyondthebayoublog.com/wp-content/uploads/2025/06/Easy-Chicken-Samosa-1200x904.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtk3ebr8v9sa1krc",
+          name: "FRENCH FRIES",
+          options: [
+            {
+              uid: "price_mljtk3eit45yty48hls",
+              size: "REGULAR",
+              price: 99,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://static.fanpage.it/wp-content/uploads/sites/22/2020/09/iStock-618214356.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtl2kva91khhp3llf",
+          name: "PERI PERI FRIES",
+          options: [
+            {
+              uid: "price_mljtl2l187ya4wd449w",
+              size: "REGULAR",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://i.pinimg.com/originals/d5/1b/a4/d51ba46b4f8996e8f69fdf852bf8fbec.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtm3s65ed4bvnbk9k",
+          name: "VEG CUTLET (2 pcs)",
+          options: [
+            {
+              uid: "price_mljtm3s9ts6c1l8572r",
+              size: "REGULAR ",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://www.whiskaffair.com/wp-content/uploads/2019/11/Veg-Cutlet-1-3.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtndyj37k5kty6ohx",
+          name: "SPRING ROLL (4 pcs)",
+          options: [
+            {
+              uid: "price_mljtndyou71z7gcmrw",
+              size: "REGULAR",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://www.spicebangla.com/wp-content/uploads/2024/06/Spring-Roll-Recipe.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtom6eqsttp69am8",
+          name: "CHILLI GARLIC BITES (12 pcs)",
+          options: [
+            {
+              uid: "price_mljtom6jbsyamtnfb2m",
+              size: "REGULAR",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dddbc52d-90b5-4285-99b3-0fc651553d12.__CR0,0,970,600_PT0_SX970_V1___.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtqckbiwvwo5hor3l",
+          name: "VEGGI FINGERS (4pcs)",
+          options: [
+            {
+              uid: "price_mljtqckh6tjcnvaf9nu",
+              size: "REGULAR ",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://www.lordbyronskitchen.com/wp-content/uploads/2020/06/5-3-800x533.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtrzdhm9lkf7cc4wg",
+          name: "HASH BROWN TIKKI (4 pcs)",
+          options: [
+            {
+              uid: "price_mljtrzdmb6kf3r0nzr",
+              size: "REGULAR",
+              price: 119,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://3.bp.blogspot.com/-H0gOKCktn4U/Ub5UXc_GICI/AAAAAAAAIYc/UbUvvGrUF4I/s640/IMG_3944.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljtwvdsdqovy40p8q",
+          name: "CHEESE CORN NUGGETS(8 pcs)",
+          options: [
+            {
+              uid: "price_mljtwvdy5v03p3od9k5",
+              size: "REGULAR",
+              price: 159,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://admin.qualityfoods.com.bd/storage/category/2023-08-08-64d1b8e7441b2.png",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mljty5g06bs1o9rgwkt",
+          name: "CHEESY FRIES",
+          options: [
+            {
+              uid: "price_mljty5g5x5qt886am69",
+              size: "REGULAR",
+              price: 129,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mkspli2kz3c3p6snkj",
+          description: "",
+          imageUrl:
+            "https://t4.ftcdn.net/jpg/05/66/43/37/360_F_566433753_F2DeZUeBJKPPSoAmwWFthUGijxQYmrTg.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mlklimpmvuy1rsubizm",
+          name: "MUTTON HANDI",
+          options: [
+            {
+              uid: "price_mlklimpr4gqnrnq464y",
+              size: "1 KG ",
+              price: 1300,
+              salePrice: null,
+            },
+            {
+              uid: "price_mlkljq8mf4nes1o0t6o",
+              size: "500 GM",
+              price: 700,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mlkl25mnazd9viymp7k",
+          description: "",
+          imageUrl: "https://i.ytimg.com/vi/gMeSz3ihNAw/maxresdefault.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+        {
+          uid: "pro_mmrcx4qainb5s0xm52a",
+          name: "COLD COFFEE ",
+          options: [
+            {
+              uid: "price_mmrcx4qin2ty79cwrbp",
+              size: "Cold Coffee ",
+              price: 90,
+              salePrice: null,
+            },
+            {
+              uid: "price_mmrcz6uxjaipibixzwa",
+              size: "Cold Coffee  With Ice-Cream",
+              price: 120,
+              salePrice: null,
+            },
+          ],
+          categoryId: "cat_mmrcw6s4sbz8ly8loi",
+          description: "",
+          imageUrl:
+            "https://www.cookingclassy.com/wp-content/uploads/2022/07/iced-coffee-05.jpg",
+          tags: [],
+          allergens: [],
+          inStock: true,
+          isArchived: false,
+        },
+      ],
+      allergens: [],
+    };
+    createMenu(menuData, {
+      version: 1,
+      priceSymbol: "₹",
+      priceSymbolPosition: 1,
+      labels: {
+        allergens: "Allergens",
+        outOfStock: "Currently Unavailable",
+        categoryAll: "All",
+      },
+      features: {
+        categoryTabs: true,
+        allergenTabs: true,
+      },
+    });
+  } catch (e) {
+    console.error(e);
+  }
+</script>
